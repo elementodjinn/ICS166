@@ -16,13 +16,15 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
     // Update is called once per frame
+
     void Update()
     {
         _movement.x = Input.GetAxisRaw("Horizontal");
         _movement.y = Input.GetAxisRaw("Vertical");
         _movement = new Vector2(_movement.x, _movement.y).normalized;
+        
     }
-
+    
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + _movement * moveSpeed * Time.fixedDeltaTime);
