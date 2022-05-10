@@ -1,17 +1,17 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.1f1 (3b70a0754835) revision 3895456'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16303 MB
+OS: 'Windows 10  (10.0.19044) 64bit Education' Language: 'en' Physical Memory: 16333 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-G:\unity\unity-2021.3.1f1\Unity.exe
+G:\Unity\2021.3.1f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-E:/AUCI/ICS166/ICS166/ICS 166
+G:/Unity/ICS_166_Game/ICS166/ICS 166
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
@@ -50,15 +50,15 @@ E:/AUCI/ICS166/ICS166/ICS 166
 Refreshing native plugins compatible for Editor in 71.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.1f1 (3b70a0754835)
-[Subsystems] Discovering subsystems at path G:/unity/unity-2021.3.1f1/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/AUCI/ICS166/ICS166/ICS 166/Assets
+[Subsystems] Discovering subsystems at path G:/Unity/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/Unity/ICS_166_Game/ICS166/ICS 166/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
     Vendor:   NVIDIA
-    VRAM:     5980 MB
-    Driver:   30.0.15.1259
+    VRAM:     5967 MB
+    Driver:   27.21.14.5709
 Initialize mono
 Mono path[0] = 'G:/unity/unity-2021.3.1f1/Data/Managed'
 Mono path[1] = 'G:/unity/unity-2021.3.1f1/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
@@ -73,12 +73,8 @@ Register platform support module: G:/unity/unity-2021.3.1f1/Data/PlaybackEngines
 Register platform support module: G:/unity/unity-2021.3.1f1/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
 Registered in 0.003666 seconds.
 Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-[usbmuxd] Send listen message
-Native extension for iOS target not found
-Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 63.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -116,9 +112,8 @@ Registered in 0.004784 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 62.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -538,9 +533,8 @@ Registered in 0.005002 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
