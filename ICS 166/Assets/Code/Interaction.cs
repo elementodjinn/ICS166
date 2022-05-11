@@ -52,4 +52,14 @@ public class Interaction : MonoBehaviour
             rb.MovePosition(rb.position + _movement * moveSpeed * Time.fixedDeltaTime);
         }
     }
+
+    void DisableMovement()
+    {
+        canMove = false;
+    }
+
+    void EnableMovement()
+    {
+        canMove = true;
+    }
 }

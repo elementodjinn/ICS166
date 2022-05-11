@@ -2131,6 +2131,8 @@ GameObject:
   - component: {fileID: 972786450}
   - component: {fileID: 972786449}
   - component: {fileID: 972786470}
+  - component: {fileID: 972786472}
+  - component: {fileID: 972786471}
   m_Layer: 0
   m_Name: Table Dialogue Flowchart (1)
   m_TagString: Untagged
@@ -2316,7 +2318,8 @@ MonoBehaviour:
   blockName: No
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 972786471}
   suppressAllAutoSelections: 0
 --- !u!114 &972786457
 MonoBehaviour:
@@ -2639,6 +2642,7 @@ MonoBehaviour:
   eventHandler: {fileID: 972786462}
   commandList:
   - {fileID: 972786461}
+  - {fileID: 972786472}
   - {fileID: 972786460}
   - {fileID: 972786458}
   - {fileID: 972786457}
@@ -2723,7 +2727,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 252.4, y: 342.8}
+  scrollPos: {x: 283.49997, y: 510.69998}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -2735,9 +2739,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 972786459}
+  - {fileID: 972786456}
   selectedCommands:
-  - {fileID: 972786470}
+  - {fileID: 972786471}
   variables:
   - {fileID: 972786463}
   description: 
@@ -2779,6 +2783,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 0
+--- !u!114 &972786471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972786448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 21
+  indentLevel: 0
+  targetObject: {fileID: 1952051437}
+  methodName: EnableMovement
+  delay: 0
+--- !u!114 &972786472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972786448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 20
+  indentLevel: 0
+  targetObject: {fileID: 1952051437}
+  methodName: DisableMovement
+  delay: 0
 --- !u!1 &1111101980
 GameObject:
   m_ObjectHideFlags: 0
@@ -4009,6 +4047,8 @@ GameObject:
   - component: {fileID: 1851227392}
   - component: {fileID: 1851227396}
   - component: {fileID: 1851227395}
+  - component: {fileID: 1851227397}
+  - component: {fileID: 1851227398}
   m_Layer: 0
   m_Name: Table Dialogue Flowchart
   m_TagString: Untagged
@@ -4070,7 +4110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 252.4, y: 342.8}
+  scrollPos: {x: 104.599976, y: 428.8}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -4082,9 +4122,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1851227388}
+  - {fileID: 1851227387}
   selectedCommands:
-  - {fileID: 1851227395}
+  - {fileID: 1851227398}
   variables:
   - {fileID: 1851227386}
   description: 
@@ -4179,7 +4219,9 @@ MonoBehaviour:
   eventHandler: {fileID: 1851227390}
   commandList:
   - {fileID: 1851227392}
+  - {fileID: 1851227397}
   - {fileID: 1851227393}
+  - {fileID: 1851227398}
   suppressAllAutoSelections: 0
 --- !u!114 &1851227388
 MonoBehaviour:
@@ -4862,6 +4904,40 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1851227397
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851227380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 8
+  indentLevel: 1
+  targetObject: {fileID: 1952051437}
+  methodName: DisableMovement
+  delay: 0
+--- !u!114 &1851227398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851227380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 9
+  indentLevel: 1
+  targetObject: {fileID: 1952051437}
+  methodName: EnableMovement
+  delay: 0
 --- !u!1 &1878312869
 GameObject:
   m_ObjectHideFlags: 0
