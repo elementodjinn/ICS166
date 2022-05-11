@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Example NPC
+  - Item
+  - ItemContainer
   layers:
   - Default
   - TransparentFX
@@ -12,7 +14,7 @@ TagManager:
   - Higher than Floor
   - Water
   - UI
-  - 
+  - Item
   - 
   - 
   - 
