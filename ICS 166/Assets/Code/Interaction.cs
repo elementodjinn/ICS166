@@ -11,6 +11,8 @@ public class Interaction : MonoBehaviour
 
     private Vector2 _movement;
 
+    public bool canMove = true;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -45,6 +47,9 @@ public class Interaction : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.MovePosition(rb.position + _movement * moveSpeed * Time.fixedDeltaTime);
+        if (canMove)
+        {
+            rb.MovePosition(rb.position + _movement * moveSpeed * Time.fixedDeltaTime);
+        }
     }
 }
