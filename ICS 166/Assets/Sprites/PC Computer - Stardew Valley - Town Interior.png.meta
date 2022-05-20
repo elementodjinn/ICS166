@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -45634,8 +45634,8 @@ TextureImporter:
       PC Computer - Stardew Valley - Town Interior_723: 55929383
       PC Computer - Stardew Valley - Town Interior_524: -581393423
       PC Computer - Stardew Valley - Town Interior_1528: 59792081
-      PC Computer - Stardew Valley - Town Interior_777: -360345820
       PC Computer - Stardew Valley - Town Interior_1933: -960015336
+      PC Computer - Stardew Valley - Town Interior_777: -360345820
       PC Computer - Stardew Valley - Town Interior_1664: 316335587
       PC Computer - Stardew Valley - Town Interior_1921: -8259278
       PC Computer - Stardew Valley - Town Interior_426: 699468807
@@ -46458,8 +46458,8 @@ TextureImporter:
       PC Computer - Stardew Valley - Town Interior_129: -401393246
       PC Computer - Stardew Valley - Town Interior_1619: 11006674
       PC Computer - Stardew Valley - Town Interior_1163: 787774286
-      PC Computer - Stardew Valley - Town Interior_1099: 1503044660
       PC Computer - Stardew Valley - Town Interior_1625: -1487515890
+      PC Computer - Stardew Valley - Town Interior_1099: 1503044660
       PC Computer - Stardew Valley - Town Interior_972: -94060262
       PC Computer - Stardew Valley - Town Interior_1553: 153407249
       PC Computer - Stardew Valley - Town Interior_573: -676901667
