@@ -4,29 +4,62 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public float moveSpeed = 5f;
-
     private Rigidbody2D rb;
-
-    private Vector2 _movement;
+    public float speed;
+    private float inputX;
+    private float inputY;
+    private Vector2 movementInput;
+    private Animator[] animators;
+    private bool isMoving;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        animators = GetComponentsInChildren<Animator>();
     }
     // Update is called once per frame
 
-    void Update()
+    private void Update()
     {
-        _movement.x = Input.GetAxisRaw("Horizontal");
-        _movement.y = Input.GetAxisRaw("Vertical");
-        _movement = new Vector2(_movement.x, _movement.y).normalized;
-        
+        PlayerInput();
     }
-    
+
     private void FixedUpdate()
     {
-        rb.MovePosition(rb.position + _movement * moveSpeed * Time.fixedDeltaTime);
+        Movement();
+        SwitchAnimation();
     }
+
+    private void PlayerInput()
+    {
+        inputX = Input.GetAxisRaw("Horizontal");
+        inputY = Input.GetAxisRaw("Vertical");
+        movementInput = new Vector2(inputX, inputY);
+        isMoving = movementInput != Vector2.zero;
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            inputX = inputX * 0.5f;
+            inputY = inputY * 0.5f;
+        }
+
+    }
+
+    private void Movement()
+    {
+        rb.MovePosition(rb.position + movementInput * speed * Time.deltaTime);
+    }
+
+    private void SwitchAnimation()
+    {
+        foreach (var anim in animators)
+        {
+            anim.SetBool("isMoving", isMoving);
+            if (isMoving)
+            {
+                anim.SetFloat("InputX", inputX);
+                anim.SetFloat("InputY", inputY);
+            }
+        }
+    }
+
 }
