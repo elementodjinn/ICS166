@@ -32,7 +32,7 @@ public class Interaction : MonoBehaviour
         }
         else
         {
-            Debug.Log("other");
+            //Debug.Log("other");
         }
     }
 

@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerInventory
 {
 	public bool inventory_opened = false;
+	public bool note_opened = false;
 	private Item[] inventory_data;
 
 
@@ -58,5 +59,21 @@ public class PlayerInventory
 	public Item[] GetItems()
 	{
 		return inventory_data;
+	}
+
+
+	// Returns true if there is an item of item_type in the inventory, false otherwise
+	// Use to check if a player has a specific item in their inventory
+	public bool FindItem(Item.ItemType item_type)
+	{
+		for (int i = 0; i < 10; i++)
+		{
+			if (inventory_data[i] != null && inventory_data[i].type == item_type)
+			{
+				return true;
+			}
+		}
+
+		return false;
 	}
 }

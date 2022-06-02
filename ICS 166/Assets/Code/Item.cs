@@ -6,8 +6,11 @@ public class Item : MonoBehaviour
 {
 	public enum ItemType
 	{
+		Default,
+		
 		// Notes
 		Note1,
+		Note2,
 
 		// Items
 		Key
@@ -16,14 +19,6 @@ public class Item : MonoBehaviour
 	public ItemType type;
 
 	
-	// DID NOT WRITE***************************************************************
-	/*private void Reset()
-	{
-		GetComponent<Collider2D>().isTrigger = true;
-		gameObject.layer = 10;
-	}*/
-
-
 	// maybe temporary
 	public void Interact()
 	{
@@ -35,20 +30,32 @@ public class Item : MonoBehaviour
 	}
 
 
+	public Sprite GetNote()
+	{
+		switch (type)
+		{
+			default:
+			case ItemType.Note1: return ItemAssets.Instance.note1;
+			case ItemType.Note2: return ItemAssets.Instance.note2;
+		}
+	}
+
+
 	public Sprite GetSprite()
 	{
 		switch (type)
 		{
 			default:
 			// Notes
-			case ItemType.Note1: return ItemAssets.Instance.note_sprite;
+			case ItemType.Note1: 
+			case ItemType.Note2: return ItemAssets.Instance.note_sprite;
 
 			// Items
 			case ItemType.Key: return ItemAssets.Instance.key_sprite;
 		}
 	}
-
-
+	
+	
 	public string GetText()
 	{
 		switch (type)
@@ -56,6 +63,7 @@ public class Item : MonoBehaviour
 			default:
 			// Notes
 			case ItemType.Note1: return "note #1";
+			case ItemType.Note2: return "note #2";
 
 			// Items
 			case ItemType.Key: return "key";

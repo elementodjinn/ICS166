@@ -6,10 +6,12 @@ using UnityEngine;
 public class ItemInteraction : MonoBehaviour
 {
     //mb_temp
-    private Transform detectionPoint;
-    private const float detectionRadius = 1f;
-    private LayerMask detectionLayer;
-    private GameObject detectedObject;
+    //private Transform detectionPoint;
+    //private const float detectionRadius = 1f;
+    //private LayerMask detectionLayer;
+    
+    private GameObject detected_object;
+    private bool detect_object = false;
 
     [SerializeField] private InventoryUI inventoryUI;
     private PlayerInventory inventory;
@@ -18,8 +20,8 @@ public class ItemInteraction : MonoBehaviour
     void Start()
     {
         //mb_temp
-        detectionPoint = gameObject.transform;
-        detectionLayer = LayerMask.GetMask("Item");
+        //detectionPoint = gameObject.transform;
+        //detectionLayer = LayerMask.GetMask("Item");
 
         inventory = new PlayerInventory();
     }
@@ -32,10 +34,10 @@ public class ItemInteraction : MonoBehaviour
         if (!inventory.inventory_opened)
         {
             // Interact with item on ground using "e"
-            if (DetectObject() && Input.GetKeyDown(KeyCode.E))
+            if (detect_object && Input.GetKeyDown(KeyCode.E))
             {
                 Debug.Log("INTERACT");
-                detectedObject.GetComponent<Item>().Interact();
+                detected_object.GetComponent<Item>().Interact();
             }
         }
 
@@ -57,7 +59,7 @@ public class ItemInteraction : MonoBehaviour
 
 
     //mb_temp
-    bool DetectObject()
+    /*bool DetectObject()
     {
         Collider2D obj = Physics2D.OverlapCircle(detectionPoint.position, detectionRadius, detectionLayer);
 
@@ -70,6 +72,22 @@ public class ItemInteraction : MonoBehaviour
         {
             detectedObject = obj.gameObject;
             return true;
+        }
+    }*/
+
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.GetComponent<Collider2D>().tag == "Item")
+        {
+            Debug.Log("Item!");
+            detected_object = collision.gameObject;
+            detect_object = true;
+        }
+        else
+        {
+            detected_object = null;
+            detect_object = false;
         }
     }
 

@@ -11,9 +11,11 @@ public class ItemAssets : MonoBehaviour
 		Instance = this;
 	}
 
-	// Notes
+	// Inventory Sprites
 	public Sprite note_sprite;
-
-	// Items
 	public Sprite key_sprite;
+
+	// Note Displays
+	public Sprite note1;
+	public Sprite note2;
 }
