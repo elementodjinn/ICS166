@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.1f1 (3b70a0754835) revision 3895456'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 24526 MB
+OS: 'Windows 10  (10.0.19044) 64bit Education' Language: 'en' Physical Memory: 16333 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Unity.exe
+G:\Unity\2021.3.1f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-X:/My Important Folders/UCI/Classes/Year 2 ( 2021-2022 )/3rd Quarter Spring/ICS166/ICS 166
+G:/Unity/ICS_166_Game/ICS166/ICS 166
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58298
-Successfully changed project path to: X:/My Important Folders/UCI/Classes/Year 2 ( 2021-2022 )/3rd Quarter Spring/ICS166/ICS 166
-X:/My Important Folders/UCI/Classes/Year 2 ( 2021-2022 )/3rd Quarter Spring/ICS166/ICS 166
+64030
+Successfully changed project path to: G:/Unity/ICS_166_Game/ICS166/ICS 166
+G:/Unity/ICS_166_Game/ICS166/ICS 166
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,110 +47,122 @@ X:/My Important Folders/UCI/Classes/Year 2 ( 2021-2022 )/3rd Quarter Spring/ICS1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 67.19 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 57.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.1f1 (3b70a0754835)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path X:/My Important Folders/UCI/Classes/Year 2 ( 2021-2022 )/3rd Quarter Spring/ICS166/ICS 166/Assets
+[Subsystems] Discovering subsystems at path G:/Unity/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/Unity/ICS_166_Game/ICS166/ICS 166/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
     Vendor:   NVIDIA
-    VRAM:     6052 MB
-    Driver:   30.0.15.1277
+    VRAM:     5967 MB
+    Driver:   27.21.14.5709
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
+Mono path[0] = 'G:/Unity/2021.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'G:/Unity/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'G:/Unity/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009456 seconds.
+Register platform support module: G:/Unity/2021.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: G:/Unity/2021.3.1f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: G:/Unity/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: G:/Unity/2021.3.1f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: G:/Unity/2021.3.1f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.003130 seconds.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.28 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 53.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.587 seconds
+- Completed reload, in  0.504 seconds
 Domain Reload Profiling:
-	ReloadAssembly (588ms)
-		BeginReloadAssembly (80ms)
+	ReloadAssembly (505ms)
+		BeginReloadAssembly (53ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (398ms)
-			LoadAssemblies (77ms)
+		EndReloadAssembly (367ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (91ms)
+			SetupTypeCache (86ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (236ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (219ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (57ms)
+				RefreshPlugins (54ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (126ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				ProcessInitializeOnLoadAttributes (116ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004583 seconds.
+Registered in 0.002251 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 56.69 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 53.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.957 seconds
+- Completed reload, in  0.874 seconds
 Domain Reload Profiling:
-	ReloadAssembly (958ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (874ms)
+		BeginReloadAssembly (86ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (737ms)
-			LoadAssemblies (92ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (694ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (188ms)
+			SetupTypeCache (185ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (362ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (327ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (57ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (187ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3075 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (55.8 KB). Loaded Objects now: 3540.
-Memory consumption went from 130.7 MB to 130.7 MB.
-Total: 3.536800 ms (FindLiveObjects: 0.300800 ms CreateObjectMapping: 0.323200 ms MarkObjects: 2.806200 ms  DeleteObjects: 0.105400 ms)
+Unloading 30 unused Assets / (55.7 KB). Loaded Objects now: 3540.
+Memory consumption went from 129.6 MB to 129.5 MB.
+Total: 2.865900 ms (FindLiveObjects: 0.271900 ms CreateObjectMapping: 0.079500 ms MarkObjects: 2.450700 ms  DeleteObjects: 0.062100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -158,139 +170,100 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1213924.707854 seconds.
+  Time since last request: 3974953.708874 seconds.
   path: Assets/Scenes/Brooke Inventory.unity
   artifactKey: Guid(dedba59efad9a454b8f8206247319d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Brooke Inventory.unity using Guid(dedba59efad9a454b8f8206247319d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5f535cb9786e84d2548ccc30fa2308') in 0.007062 seconds 
+Start importing Assets/Scenes/Brooke Inventory.unity using Guid(dedba59efad9a454b8f8206247319d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd95daa84e375dfb48b17b237b737d7') in 0.005304 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.968593 seconds.
+  Time since last request: 2.096107 seconds.
   path: Assets/Scenes/AlexScene=D.unity
   artifactKey: Guid(c712d4b1e1cc96c45a731af4844194c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/AlexScene=D.unity using Guid(c712d4b1e1cc96c45a731af4844194c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df34a0754327d7007e6e00dd55d8f1d') in 0.001388 seconds 
+Start importing Assets/Scenes/AlexScene=D.unity using Guid(c712d4b1e1cc96c45a731af4844194c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b19194ea6b207a8d4e8e23a3b9b3fa') in 0.000922 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 55.071509 seconds.
-  path: Assets/Prefabs/InventoryUI.prefab
-  artifactKey: Guid(a82de8fd20f0e6d4bbb9b0a4c4a7a98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/InventoryUI.prefab using Guid(a82de8fd20f0e6d4bbb9b0a4c4a7a98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886d413b5b7ac164645c25be9305e498') in 0.073406 seconds 
+  Time since last request: 1.534827 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbf73cd46779dbb6fce4c573fd35d5c') in 0.000923 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.390672 seconds.
-  path: Assets/Prefabs/Canvas.prefab
-  artifactKey: Guid(cf4430af3a1930e43a370f93e030cc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Canvas.prefab using Guid(cf4430af3a1930e43a370f93e030cc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c368026d5b5297cbd298b80f7a6acefa') in 0.030236 seconds 
+  Time since last request: 15.748633 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(dabea86ea5753e3439dbeffaba108c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(dabea86ea5753e3439dbeffaba108c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1b1411cc2774bb2ab816a9b25f7a9d') in 0.000813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.248690 seconds.
+  path: Assets/Scenes/MainRoomScene.unity
+  artifactKey: Guid(88e2a7ba5f7c7544bb959d0b3f9bdcab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainRoomScene.unity using Guid(88e2a7ba5f7c7544bb959d0b3f9bdcab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e323667f2db5876d680ae7b5405757') in 0.001338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.328199 seconds.
+  path: Assets/Scenes/Rick's.unity
+  artifactKey: Guid(6d4cc14f094013c4695811c66ecc2a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Rick's.unity using Guid(6d4cc14f094013c4695811c66ecc2a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff03036743163dc6311dfedb62c79565') in 0.000856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.833687 seconds.
+  path: Assets/Scenes/MainRoomScene.unity
+  artifactKey: Guid(88e2a7ba5f7c7544bb959d0b3f9bdcab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainRoomScene.unity using Guid(88e2a7ba5f7c7544bb959d0b3f9bdcab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10cba5f332e403c64b7ed7486ee75aa6') in 0.000757 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004451 seconds.
+Registered in 0.002573 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.967 seconds
+- Completed reload, in  0.784 seconds
 Domain Reload Profiling:
-	ReloadAssembly (968ms)
-		BeginReloadAssembly (129ms)
+	ReloadAssembly (784ms)
+		BeginReloadAssembly (100ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (734ms)
-			LoadAssemblies (97ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (603ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (214ms)
+			SetupTypeCache (171ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (336ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (277ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (198ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (24.7 KB). Loaded Objects now: 3543.
-Memory consumption went from 129.0 MB to 129.0 MB.
-Total: 3.017200 ms (FindLiveObjects: 0.299700 ms CreateObjectMapping: 0.081500 ms MarkObjects: 2.613900 ms  DeleteObjects: 0.020700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 18.132720 seconds.
-  path: Assets/Scenes/AlexScene=D.unity
-  artifactKey: Guid(c712d4b1e1cc96c45a731af4844194c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/AlexScene=D.unity using Guid(c712d4b1e1cc96c45a731af4844194c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de965fa49ea5572f64e04a349f56174') in 0.006868 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004407 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.905 seconds
-Domain Reload Profiling:
-	ReloadAssembly (906ms)
-		BeginReloadAssembly (127ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (683ms)
-			LoadAssemblies (100ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (198ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (310ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (182ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (24.6 KB). Loaded Objects now: 3546.
-Memory consumption went from 129.0 MB to 129.0 MB.
-Total: 3.063700 ms (FindLiveObjects: 0.278000 ms CreateObjectMapping: 0.077800 ms MarkObjects: 2.681100 ms  DeleteObjects: 0.024600 ms)
+Unloading 17 unused Assets / (24.7 KB). Loaded Objects now: 3543.
+Memory consumption went from 127.8 MB to 127.8 MB.
+Total: 2.731400 ms (FindLiveObjects: 0.231100 ms CreateObjectMapping: 0.196200 ms MarkObjects: 2.286900 ms  DeleteObjects: 0.016300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -299,276 +272,1256 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005560 seconds.
+Registered in 0.002702 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.914 seconds
+- Completed reload, in  0.774 seconds
 Domain Reload Profiling:
-	ReloadAssembly (915ms)
-		BeginReloadAssembly (133ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (690ms)
-			LoadAssemblies (100ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (187ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (321ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (193ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (24.7 KB). Loaded Objects now: 3549.
-Memory consumption went from 129.0 MB to 129.0 MB.
-Total: 3.392600 ms (FindLiveObjects: 0.292100 ms CreateObjectMapping: 0.074300 ms MarkObjects: 2.998500 ms  DeleteObjects: 0.026100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004645 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.915 seconds
-Domain Reload Profiling:
-	ReloadAssembly (915ms)
-		BeginReloadAssembly (130ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (685ms)
-			LoadAssemblies (102ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (179ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (325ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (195ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (24.7 KB). Loaded Objects now: 3552.
-Memory consumption went from 129.0 MB to 129.0 MB.
-Total: 3.277200 ms (FindLiveObjects: 0.416600 ms CreateObjectMapping: 0.089900 ms MarkObjects: 2.738900 ms  DeleteObjects: 0.030400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 181.283112 seconds.
-  path: Assets/Sprites/Note1.png
-  artifactKey: Guid(e0600649af310b7478c7758da3ca630a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Note1.png using Guid(e0600649af310b7478c7758da3ca630a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7bc368b0273fcb0467d46308963e07') in 0.192954 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008221 seconds.
-  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_40.asset
-  artifactKey: Guid(86cd633e5b761414db157a20ee9012e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_40.asset using Guid(86cd633e5b761414db157a20ee9012e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23c0b5e6a8a1eb74bcdf73998b20f9c') in 0.030189 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_59.asset
-  artifactKey: Guid(0951bc3bef149664dbc4ebd09e2474ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_59.asset using Guid(0951bc3bef149664dbc4ebd09e2474ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9128e73459a805a323b04dfbfb849555') in 0.017101 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_52.asset
-  artifactKey: Guid(6122d24f9014c6a4291569f920737188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_52.asset using Guid(6122d24f9014c6a4291569f920737188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd92af6ebfda6a4860e35cb0a8c88b7') in 0.011529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_49.asset
-  artifactKey: Guid(55f3c0389e8ca1a45bc482edfffa8d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_49.asset using Guid(55f3c0389e8ca1a45bc482edfffa8d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e448e18e526319542814a194db289e') in 0.007533 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_53.asset
-  artifactKey: Guid(9dc9f992bec240e45994c0ad192f8fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_53.asset using Guid(9dc9f992bec240e45994c0ad192f8fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7a30d4b3a448f22b382ba182ed17d3') in 0.014554 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_45.asset
-  artifactKey: Guid(067af6aa526c7fb4b9f6e4f36d2a7e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_45.asset using Guid(067af6aa526c7fb4b9f6e4f36d2a7e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433fe1ef1d431c0f91a4a80f440e4559') in 0.014597 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_64.asset
-  artifactKey: Guid(51e2f45f6edcf43438e7e9cf8e658a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_64.asset using Guid(51e2f45f6edcf43438e7e9cf8e658a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a9be96e258fee98945bf1796a540b9') in 0.007335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_54.asset
-  artifactKey: Guid(896f15a52b16b174a951ac1637b1ecb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_54.asset using Guid(896f15a52b16b174a951ac1637b1ecb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b146122cd00cf05d8ceee9dae93e4466') in 0.006775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_68.asset
-  artifactKey: Guid(4f3f125014cf7e942b13f1a27099869c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_68.asset using Guid(4f3f125014cf7e942b13f1a27099869c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932091c3574757d7515126b970f5552c') in 0.015365 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_51.asset
-  artifactKey: Guid(afe568f1221a90f43b59f49f98ac366b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_51.asset using Guid(afe568f1221a90f43b59f49f98ac366b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2629ebb0b308d7cae3f4258b0246ab96') in 0.009529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_47.asset
-  artifactKey: Guid(b71f3fc00c81e9c43937ef6260ab3603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_47.asset using Guid(b71f3fc00c81e9c43937ef6260ab3603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3c7d730ec0da15bcec34d9543f0834') in 0.008492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_56.asset
-  artifactKey: Guid(7a6b10e3a45ab72499ff7c0bab360d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_56.asset using Guid(7a6b10e3a45ab72499ff7c0bab360d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afba30cf5d327cadf4efd9e95dd0892d') in 0.007904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_69.asset
-  artifactKey: Guid(75b7095c7ed5a6b40b9f0ab37a453849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_69.asset using Guid(75b7095c7ed5a6b40b9f0ab37a453849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8751a732748fe34b058344bb1d08437') in 0.007200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_43.asset
-  artifactKey: Guid(66bd9315f16f17d42bf4b2be78aaa7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_43.asset using Guid(66bd9315f16f17d42bf4b2be78aaa7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c620f9a9906f82469f4a26b3cbc85b') in 0.008065 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_42.asset
-  artifactKey: Guid(e85646af9ed467341ba3f068373aabf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_42.asset using Guid(e85646af9ed467341ba3f068373aabf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2e33dac24b58cbb5cfcd1ad15cfcf5') in 0.008438 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_46.asset
-  artifactKey: Guid(3100b7b7f3ff63d4281ff399ae9666b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_46.asset using Guid(3100b7b7f3ff63d4281ff399ae9666b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59266c989b90084c6d56db7f5551e4d') in 0.014789 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_65.asset
-  artifactKey: Guid(384d7d9fe330fcf4ab9e612f272f61e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_65.asset using Guid(384d7d9fe330fcf4ab9e612f272f61e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ed6c9576eeb8cdfc2afd87f6ec28e4') in 0.006452 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004381 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.008 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1009ms)
-		BeginReloadAssembly (133ms)
+	ReloadAssembly (775ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (769ms)
-			LoadAssemblies (107ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (593ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (220ms)
+			SetupTypeCache (166ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (346ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (278ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (205ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (24.8 KB). Loaded Objects now: 3563.
-Memory consumption went from 133.4 MB to 133.4 MB.
-Total: 3.140400 ms (FindLiveObjects: 0.347200 ms CreateObjectMapping: 0.081700 ms MarkObjects: 2.687700 ms  DeleteObjects: 0.022600 ms)
+Unloading 17 unused Assets / (24.6 KB). Loaded Objects now: 3546.
+Memory consumption went from 127.8 MB to 127.8 MB.
+Total: 2.590200 ms (FindLiveObjects: 0.229200 ms CreateObjectMapping: 0.070300 ms MarkObjects: 2.267900 ms  DeleteObjects: 0.021600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 124.511350 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(cf4430af3a1930e43a370f93e030cc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(cf4430af3a1930e43a370f93e030cc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e1f31da8f99c90b81c99e825a968f6') in 0.091906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.351003 seconds.
+  path: Assets/M Studio/Animator/Player/Arm.overrideController
+  artifactKey: Guid(edcaecb7eb56a0a43b91eef617b0a929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Animator/Player/Arm.overrideController using Guid(edcaecb7eb56a0a43b91eef617b0a929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcfc88e9f56194d08abd77d46a02208') in 0.376311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.188690 seconds.
+  path: Assets/Sprites/Key_Sprite_SV.png
+  artifactKey: Guid(e14d71f391d8b024f94479574a151175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Key_Sprite_SV.png using Guid(e14d71f391d8b024f94479574a151175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec91250528339af30261d9fcbe9226da') in 0.114477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Note_Sprite_SV.png
+  artifactKey: Guid(204caa60b963d0c40a4ba28f4b889153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Note_Sprite_SV.png using Guid(204caa60b963d0c40a4ba28f4b889153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac4a5e1574add94cd6880cfc05802c4') in 0.011644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_37.asset
+  artifactKey: Guid(cdf74bbb38a1bda458f1a3d6b7640cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_37.asset using Guid(cdf74bbb38a1bda458f1a3d6b7640cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce66cce4174d2da425b6f635ab83a02c') in 0.061873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_8.asset
+  artifactKey: Guid(73b4da63e9a4afb4db2caf54381a7baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_8.asset using Guid(73b4da63e9a4afb4db2caf54381a7baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ca26d58008a7bb4ac3f0209db907aa') in 0.050180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_12.asset
+  artifactKey: Guid(e2a593a486a09fc4b81cf4fc7cee9294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_12.asset using Guid(e2a593a486a09fc4b81cf4fc7cee9294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555f095649f18fb6b242fd358ae54d8a') in 0.024866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_18.asset
+  artifactKey: Guid(4e73305cf246fdd49926b02ee816e11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_18.asset using Guid(4e73305cf246fdd49926b02ee816e11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd816449d705e4f26247693d5955e6e1e') in 0.016147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Main Character.png
+  artifactKey: Guid(bae1ce0288fa1ac4d91ce473383ba061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Main Character.png using Guid(bae1ce0288fa1ac4d91ce473383ba061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364315effc061d3ecc5e67a3c5878133') in 0.069678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_5.asset
+  artifactKey: Guid(6eda0c2e347c1204ca27dee0192c55a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_5.asset using Guid(6eda0c2e347c1204ca27dee0192c55a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f8bfa0f31b47b6084186f2c2d017f2') in 0.045722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Note_Background_SV.png
+  artifactKey: Guid(c58ab65b449c04445ac75a05628e9bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Note_Background_SV.png using Guid(c58ab65b449c04445ac75a05628e9bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a791d482c7a5a81bc8c3663cbd20ddae') in 0.125913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_24.asset
+  artifactKey: Guid(8e3843043b851c444a965a4796bfcb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_24.asset using Guid(8e3843043b851c444a965a4796bfcb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ed3dbd76f38386685dbdcb276d47e9') in 0.022029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_0.asset
+  artifactKey: Guid(4c7bcda0fa500974389f7514d2ba587a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_0.asset using Guid(4c7bcda0fa500974389f7514d2ba587a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0ace95c15d3cc0cd0034055b6fc68b') in 0.022252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Furniture.png
+  artifactKey: Guid(5791596827a9f1e47864f2f74e89bebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Furniture.png using Guid(5791596827a9f1e47864f2f74e89bebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4c31f99a58d61c08d109bf08db0be2') in 0.116194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_2.asset
+  artifactKey: Guid(d7f9d9c4915ff2a439d2fa49f38c61c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_2.asset using Guid(d7f9d9c4915ff2a439d2fa49f38c61c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfada65858e6f0504f070fbf7440767b') in 0.005347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_16.asset
+  artifactKey: Guid(17fd4349fecad724c879a92bcae0c043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_16.asset using Guid(17fd4349fecad724c879a92bcae0c043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55114a279ce76adc9f39f804a4e3e1ce') in 0.023293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_11.asset
+  artifactKey: Guid(555297070948d4e49a2d77670c982a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_11.asset using Guid(555297070948d4e49a2d77670c982a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec51f4c0ae61b1e6f05b469f3f17ac3') in 0.014098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_19.asset
+  artifactKey: Guid(58658dd0c8b7e8f4a891651e4e2a6ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_19.asset using Guid(58658dd0c8b7e8f4a891651e4e2a6ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792633f3e2f3fb6b1d91856554def9e2') in 0.014887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_36.asset
+  artifactKey: Guid(168406f5b1d3bbc4b8168d682c685fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_36.asset using Guid(168406f5b1d3bbc4b8168d682c685fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0c10af9b3317f1ae80611362c649ef') in 0.004128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_20.asset
+  artifactKey: Guid(1731de4346ae65444a675b5325661832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_20.asset using Guid(1731de4346ae65444a675b5325661832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f28b5adb445ce81f9959de0e8ef49a') in 0.068136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_35.asset
+  artifactKey: Guid(d2e9ee35d18272847b4e375bcca14420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_35.asset using Guid(d2e9ee35d18272847b4e375bcca14420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d9bdb257c07ed6a420639d313effd7') in 0.004908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior.png
+  artifactKey: Guid(0e565dda7dd31a94695684004c2620fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior.png using Guid(0e565dda7dd31a94695684004c2620fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8111896c5aff926dcaec33183127271') in 3.281473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.066476 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_42.asset
+  artifactKey: Guid(e85646af9ed467341ba3f068373aabf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_42.asset using Guid(e85646af9ed467341ba3f068373aabf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2e33dac24b58cbb5cfcd1ad15cfcf5') in 0.014725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_45.asset
+  artifactKey: Guid(067af6aa526c7fb4b9f6e4f36d2a7e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_45.asset using Guid(067af6aa526c7fb4b9f6e4f36d2a7e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433fe1ef1d431c0f91a4a80f440e4559') in 0.015900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_51.asset
+  artifactKey: Guid(afe568f1221a90f43b59f49f98ac366b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_51.asset using Guid(afe568f1221a90f43b59f49f98ac366b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2629ebb0b308d7cae3f4258b0246ab96') in 0.015576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_44.asset
+  artifactKey: Guid(99551812d3c16184e903f0a29d620133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_44.asset using Guid(99551812d3c16184e903f0a29d620133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fdfd29f3b96fd4b29ede895ba6fd40c') in 0.028900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_49.asset
+  artifactKey: Guid(55f3c0389e8ca1a45bc482edfffa8d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_49.asset using Guid(55f3c0389e8ca1a45bc482edfffa8d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e448e18e526319542814a194db289e') in 0.006005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_47.asset
+  artifactKey: Guid(b71f3fc00c81e9c43937ef6260ab3603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_47.asset using Guid(b71f3fc00c81e9c43937ef6260ab3603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3c7d730ec0da15bcec34d9543f0834') in 0.021254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_43.asset
+  artifactKey: Guid(66bd9315f16f17d42bf4b2be78aaa7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_43.asset using Guid(66bd9315f16f17d42bf4b2be78aaa7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c620f9a9906f82469f4a26b3cbc85b') in 0.024184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.270187 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_53.asset
+  artifactKey: Guid(9dc9f992bec240e45994c0ad192f8fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_53.asset using Guid(9dc9f992bec240e45994c0ad192f8fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7a30d4b3a448f22b382ba182ed17d3') in 0.028287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_61.asset
+  artifactKey: Guid(302d7614cb058d743b622e184614d937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_61.asset using Guid(302d7614cb058d743b622e184614d937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93fdde569d619d609a27b66f4c62270e') in 0.014103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_72.asset
+  artifactKey: Guid(f4049f8ba2bf61a4696140b056a1a931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_72.asset using Guid(f4049f8ba2bf61a4696140b056a1a931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb185ececa962451f1da52433bf78084') in 0.018635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_68.asset
+  artifactKey: Guid(4f3f125014cf7e942b13f1a27099869c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_68.asset using Guid(4f3f125014cf7e942b13f1a27099869c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932091c3574757d7515126b970f5552c') in 0.013298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_69.asset
+  artifactKey: Guid(75b7095c7ed5a6b40b9f0ab37a453849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_69.asset using Guid(75b7095c7ed5a6b40b9f0ab37a453849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8751a732748fe34b058344bb1d08437') in 0.018358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_70.asset
+  artifactKey: Guid(a02662afca0e4934bbfc83d1a083cf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_70.asset using Guid(a02662afca0e4934bbfc83d1a083cf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d690118f56b0967ecad7421e98e4253') in 0.009045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_63.asset
+  artifactKey: Guid(1c54054e30aa9ad46a61b0e68e84d4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_63.asset using Guid(1c54054e30aa9ad46a61b0e68e84d4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008507aba2433803ecd644b7bfa3fa68') in 0.005137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_71.asset
+  artifactKey: Guid(888abcfb26f7c424b9120ab573550816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_71.asset using Guid(888abcfb26f7c424b9120ab573550816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813b7ed5a4a2707a80f098920f2ca5e8') in 0.017952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_73.asset
+  artifactKey: Guid(7647ab8e7bcf84a4ea0715d0282379ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_73.asset using Guid(7647ab8e7bcf84a4ea0715d0282379ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d5b48008f80e72b8053be6f4c69a7a') in 0.014345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_57.asset
+  artifactKey: Guid(c26235a9afe04e94cbb46f983fd40a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_57.asset using Guid(c26235a9afe04e94cbb46f983fd40a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ff0e9691b9482dbd90315e3a358ea0') in 0.015322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_65.asset
+  artifactKey: Guid(384d7d9fe330fcf4ab9e612f272f61e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_65.asset using Guid(384d7d9fe330fcf4ab9e612f272f61e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ed6c9576eeb8cdfc2afd87f6ec28e4') in 0.004521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_67.asset
+  artifactKey: Guid(42013ae1be49ffa4cb9b4619ba24f21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_67.asset using Guid(42013ae1be49ffa4cb9b4619ba24f21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0a9be865034bed5d5538355578dc15') in 0.005825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.316491 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_77.asset
+  artifactKey: Guid(7b551445797deb44698b08c950b0ebd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_77.asset using Guid(7b551445797deb44698b08c950b0ebd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae519e8daac2b075649a5d03cffecee') in 0.007263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_79.asset
+  artifactKey: Guid(cb96b9dbf25858e4d9bc8907605a94fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_79.asset using Guid(cb96b9dbf25858e4d9bc8907605a94fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8138e1583fd31093d878cb3b2bd20d04') in 0.010184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_81.asset
+  artifactKey: Guid(16be14b850e8766448e415084454884d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_81.asset using Guid(16be14b850e8766448e415084454884d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9917029cb957415ecea82fe1fa068546') in 0.027315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_111.asset
+  artifactKey: Guid(61ff0c21545ffc545a5b2a71d98aea70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_111.asset using Guid(61ff0c21545ffc545a5b2a71d98aea70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd2920a96ca3d89cb9812f875a924d8') in 0.018668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_101.asset
+  artifactKey: Guid(8d6695cbac222e649bdc02d4c1d08012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_101.asset using Guid(8d6695cbac222e649bdc02d4c1d08012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a04d19e7ae3f65575c349c9bc94b436') in 0.014304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_88.asset
+  artifactKey: Guid(7b8c0a95698f9764f9cbfe47b319c26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_88.asset using Guid(7b8c0a95698f9764f9cbfe47b319c26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c047251fe442d855bab2475a9b18e58') in 0.009165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_133.asset
+  artifactKey: Guid(d9ed764a3b34bd54eb23dc665d89ebdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_133.asset using Guid(d9ed764a3b34bd54eb23dc665d89ebdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722bf6280b02ac40226a459c4dbe0b80') in 0.007046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_131.asset
+  artifactKey: Guid(d6a9beb084b889f4482d9f3676de6476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_131.asset using Guid(d6a9beb084b889f4482d9f3676de6476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ad5bb98e5506225c9385d9ff1e6ed9') in 0.013346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_129.asset
+  artifactKey: Guid(bb0c0d59ceee9214885d5650e8e5d6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_129.asset using Guid(bb0c0d59ceee9214885d5650e8e5d6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c960d05f65bdcc09dd9710c48f5c2cad') in 0.010022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_91.asset
+  artifactKey: Guid(ab959074f2289b347b1b10251a65a96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_91.asset using Guid(ab959074f2289b347b1b10251a65a96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c496d8e708356eab6fcd610bf2ab17e') in 0.011370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_113.asset
+  artifactKey: Guid(f7cc9fbb44bb1374499d390c859a274f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_113.asset using Guid(f7cc9fbb44bb1374499d390c859a274f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc407d71d9734a5852031e372643916d') in 0.010854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_102.asset
+  artifactKey: Guid(2ae88da0cfaa3a44f8984b1369530a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_102.asset using Guid(2ae88da0cfaa3a44f8984b1369530a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0ab065aeafc32f686580cb90dbe5fe') in 0.008976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_121.asset
+  artifactKey: Guid(a9ae28b4832e5a5429e7ba8f89be5350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_121.asset using Guid(a9ae28b4832e5a5429e7ba8f89be5350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036da4180d09921706891ed5b8acb443') in 0.009293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_99.asset
+  artifactKey: Guid(85780d74803088e4a80505af007ec45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_99.asset using Guid(85780d74803088e4a80505af007ec45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a335ce556e382271f3f53f5fb634c21') in 0.005230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_108.asset
+  artifactKey: Guid(a888bec6cc7e1a74db743c4b7b4755d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_108.asset using Guid(a888bec6cc7e1a74db743c4b7b4755d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665eabf41c4fe50ce10a6a765bda5301') in 0.013740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_119.asset
+  artifactKey: Guid(c0b972360b7bad74fa4e3b182f30301a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_119.asset using Guid(c0b972360b7bad74fa4e3b182f30301a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f8cbd12f74bc79f03bf3616ad97c5c') in 0.016884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_134.asset
+  artifactKey: Guid(3a9996850276ab64eb1eaecb2d35b040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_134.asset using Guid(3a9996850276ab64eb1eaecb2d35b040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47334182cdb8e7ca39714abd2bf5ebf1') in 0.005754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_89.asset
+  artifactKey: Guid(2784c988f574d914c91af07eb170a4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_89.asset using Guid(2784c988f574d914c91af07eb170a4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4928fe9c620d8e03c9faacf81c269f9') in 0.030100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_82.asset
+  artifactKey: Guid(f082a6920f5d8244bb438e9792c2fcbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_82.asset using Guid(f082a6920f5d8244bb438e9792c2fcbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82be4052b428f14b971630d02adb937') in 0.012939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_125.asset
+  artifactKey: Guid(91492e3c6f2da4c45bb9839aac02b4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_125.asset using Guid(91492e3c6f2da4c45bb9839aac02b4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691eaa4fe5b6b860fb9cd6faaa1fa9f4') in 0.008619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_103.asset
+  artifactKey: Guid(8da80c1932201fd4db40245b2701cd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_103.asset using Guid(8da80c1932201fd4db40245b2701cd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447650ad1c902c65df533a6e064c37c1') in 0.012402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_86.asset
+  artifactKey: Guid(e913b5da7bdd781439c2e65998a4707b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_86.asset using Guid(e913b5da7bdd781439c2e65998a4707b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5883f46be4de63ef784ecaef4e9b89a') in 0.008046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_116.asset
+  artifactKey: Guid(3ecb95bfb14229d4da233c0790855eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_116.asset using Guid(3ecb95bfb14229d4da233c0790855eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0eb0ed76e47323151089bcb1e81fc71') in 0.017795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_105.asset
+  artifactKey: Guid(2018f13eaa903cd4589b6048083c82d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_105.asset using Guid(2018f13eaa903cd4589b6048083c82d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ed92bbefc0b9ac80546f395041d102') in 0.020929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_107.asset
+  artifactKey: Guid(0ad7d0ef8077a0e48ad1e379c8d529af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_107.asset using Guid(0ad7d0ef8077a0e48ad1e379c8d529af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bb85a0fae2194e02c99e1da2bcabb8') in 0.011773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_87.asset
+  artifactKey: Guid(80d5c0f0dc0d77e46b3f2b1c2db4bc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_87.asset using Guid(80d5c0f0dc0d77e46b3f2b1c2db4bc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3163335c1fd435256af482e1e3396e') in 0.005113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_112.asset
+  artifactKey: Guid(acaa38d1c4f490f4bb3722552a88eece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_112.asset using Guid(acaa38d1c4f490f4bb3722552a88eece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77ecc65ba52b0352a5f71d7415b78cf') in 0.012386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_132.asset
+  artifactKey: Guid(6062d76ddee0825499018ba29453cf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_132.asset using Guid(6062d76ddee0825499018ba29453cf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77db0e33c4f08e3873c71572da3734c') in 0.025274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_130.asset
+  artifactKey: Guid(f35eb712d0980e64dbbfbe829d5759d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_130.asset using Guid(f35eb712d0980e64dbbfbe829d5759d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b3412ba55ee5d21ae9f00f1d43b4f9') in 0.006023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_109.asset
+  artifactKey: Guid(3f0fbcabc258bd84983dc75d7f8422a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_109.asset using Guid(3f0fbcabc258bd84983dc75d7f8422a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38aefb24dd8250a998e7d4801ab60b0') in 0.018598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.058656 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_137.asset
+  artifactKey: Guid(e9f12992a8009dc45b26f6ad1122f8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_137.asset using Guid(e9f12992a8009dc45b26f6ad1122f8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a81cfacbe84cc4349273cbc703ab8ed') in 0.009883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_142.asset
+  artifactKey: Guid(7b8c3900f6c0e0c40917f05f4d4a3b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_142.asset using Guid(7b8c3900f6c0e0c40917f05f4d4a3b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbad63744f37d51d5b62d2c888324def') in 0.035665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_152.asset
+  artifactKey: Guid(72af05ce5f869754cae6da0034850b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_152.asset using Guid(72af05ce5f869754cae6da0034850b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026b8a7fb36368379974efcecfb989f5') in 0.061060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_155.asset
+  artifactKey: Guid(19b6d44e27b8c024f92943280628c4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_155.asset using Guid(19b6d44e27b8c024f92943280628c4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db08717501d280a412763dd5b4ad3e3') in 0.010925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_160.asset
+  artifactKey: Guid(4c2e30b4751f3c247a1b53e125669006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_160.asset using Guid(4c2e30b4751f3c247a1b53e125669006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1920aabbe52dd017647968ac8f1a5ca') in 0.004575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_151.asset
+  artifactKey: Guid(67ff60d2aa4aa864aa03961e4b631faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_151.asset using Guid(67ff60d2aa4aa864aa03961e4b631faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ee0450d27d6d5e1d55dc5e0379cd48') in 0.012245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_181.asset
+  artifactKey: Guid(343384ae0e6a18b478bc751a492da94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_181.asset using Guid(343384ae0e6a18b478bc751a492da94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f19112da240b7cc28f4a07732b74373') in 0.010756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_149.asset
+  artifactKey: Guid(d139d3fe44b082c4da61131b6f82637e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_149.asset using Guid(d139d3fe44b082c4da61131b6f82637e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4579f4ae766083da128277b80089a7') in 0.021097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_168.asset
+  artifactKey: Guid(6bfa7ed5cf81fd14c881773865146f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_168.asset using Guid(6bfa7ed5cf81fd14c881773865146f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46db7d2b531de212cbf520c2a930f307') in 0.019619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_177.asset
+  artifactKey: Guid(a48b40caafde95e4b917a81acd842bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_177.asset using Guid(a48b40caafde95e4b917a81acd842bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a01541b35b44869a57b8d843a28e19') in 0.012586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_171.asset
+  artifactKey: Guid(0a958f314ff483e4b8fd28106a6d49b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_171.asset using Guid(0a958f314ff483e4b8fd28106a6d49b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f223b4d2d28b8f15bd1a60e7e99e6087') in 0.011201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_169.asset
+  artifactKey: Guid(5eb5bd4db726aff4181920cb6b972828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_169.asset using Guid(5eb5bd4db726aff4181920cb6b972828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0857c09d04b1c105d3ba51e11e9bdefb') in 0.010715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_150.asset
+  artifactKey: Guid(48e7b17fa3d56794f96824829257ec65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_150.asset using Guid(48e7b17fa3d56794f96824829257ec65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9a85ce689b284356abab6a1c75f66c') in 0.013906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_156.asset
+  artifactKey: Guid(d03be96d96bf7b74895c4a2f8aa88c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_156.asset using Guid(d03be96d96bf7b74895c4a2f8aa88c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1bfc3d7536958862166c7dd8ad71ceb') in 0.008793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_144.asset
+  artifactKey: Guid(367146b92be84174097f16018d2d22c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_144.asset using Guid(367146b92be84174097f16018d2d22c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10f5c93fdce6700e7727f99b39a9517') in 0.014313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_173.asset
+  artifactKey: Guid(d954aab70db4fc645baa81eb7c3963f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_173.asset using Guid(d954aab70db4fc645baa81eb7c3963f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e9854aa6ff6b98669934d00681e158') in 0.035167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_178.asset
+  artifactKey: Guid(bd69073aaa0677d409ba4770314ac00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_178.asset using Guid(bd69073aaa0677d409ba4770314ac00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e698be8cf7c3724d1792ef167db655f') in 0.009185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_147.asset
+  artifactKey: Guid(aebbd669550d828499ff3d93aa3757ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_147.asset using Guid(aebbd669550d828499ff3d93aa3757ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c61791f4ae8e807eb8845c2f993581') in 0.043480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_141.asset
+  artifactKey: Guid(c3adbc9bf3a3f234abebadcad3abfdb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_141.asset using Guid(c3adbc9bf3a3f234abebadcad3abfdb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2035dda7239f42be31495bf2f35f58b') in 0.040583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_145.asset
+  artifactKey: Guid(40fd6589a3275504498d03697b1eec65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_145.asset using Guid(40fd6589a3275504498d03697b1eec65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80aaaeef3a65f06df69420c6d3a1447f') in 0.017539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_172.asset
+  artifactKey: Guid(24692797a4c85e847929df2ca7d0c37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_172.asset using Guid(24692797a4c85e847929df2ca7d0c37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b3ca1c4cd4b52b89d84683e1668395') in 0.019680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_182.asset
+  artifactKey: Guid(27e2b7124d4f2e149841fb743db6254d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_182.asset using Guid(27e2b7124d4f2e149841fb743db6254d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0efa78ef036f06de3cf3cc41e71b2a42') in 0.018606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.017673 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_185.asset
+  artifactKey: Guid(6895dd491522ec04fa3a3b57b31d1ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_185.asset using Guid(6895dd491522ec04fa3a3b57b31d1ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa64e24389a833f109ac681bc0aa504') in 0.005196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_194.asset
+  artifactKey: Guid(424ea977a32f34f499b898946cbaf0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_194.asset using Guid(424ea977a32f34f499b898946cbaf0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19706505c90d240855862035bfb532c8') in 0.004903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_188.asset
+  artifactKey: Guid(2d45fb9e961e6dd4180cec87e278e53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_188.asset using Guid(2d45fb9e961e6dd4180cec87e278e53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14046451ed637926f7a5f59822a0dce1') in 0.004864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_187.asset
+  artifactKey: Guid(df0bfb01f3e89714494e80ea68b2e0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_187.asset using Guid(df0bfb01f3e89714494e80ea68b2e0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44e1dcfa1d33fc80b2953d858db3af6') in 0.005472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_196.asset
+  artifactKey: Guid(5b3dbddffeecc5f49bdcf69c69ee6c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_196.asset using Guid(5b3dbddffeecc5f49bdcf69c69ee6c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c484accd7879495b87c5d7d5429716') in 0.005691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_199.asset
+  artifactKey: Guid(54a247ea783f9624b92e2e2f2160a03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_199.asset using Guid(54a247ea783f9624b92e2e2f2160a03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db243d6a20c8ba15576d894fb218b5c9') in 0.006583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_202.asset
+  artifactKey: Guid(691bb0367ada9f646ad035de6c9fdc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_202.asset using Guid(691bb0367ada9f646ad035de6c9fdc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4346632862a3fa437a546b47680efc32') in 0.005304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_201.asset
+  artifactKey: Guid(d7a962d16e558a74bb3c8bf8baa6c962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_201.asset using Guid(d7a962d16e558a74bb3c8bf8baa6c962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfebc0f437b8f4bd0480f2d11a2fd2ac') in 0.005715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_208.asset
+  artifactKey: Guid(3cc925d654a2f1e4883dd0a812b2965f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_208.asset using Guid(3cc925d654a2f1e4883dd0a812b2965f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f0501d7afd181be338bc81e3c160ef') in 0.006332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_212.asset
+  artifactKey: Guid(fd7738a594129624eaa03567f8143c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_212.asset using Guid(fd7738a594129624eaa03567f8143c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22fea6029bf404cd43adb4650648afc7') in 0.004972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_216.asset
+  artifactKey: Guid(503da2ce1038c534a99bf53e7f5498b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_216.asset using Guid(503da2ce1038c534a99bf53e7f5498b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c177ab2a5d0409030fa4588029f070b') in 0.005023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_210.asset
+  artifactKey: Guid(cb3c3259dbd58f4448683a6331dbd523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_210.asset using Guid(cb3c3259dbd58f4448683a6331dbd523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84ddcd6d0ca1a43b64703bbaba1da2a') in 0.007391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025542 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_221.asset
+  artifactKey: Guid(51ada12cf14e425478d2871819cf4ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_221.asset using Guid(51ada12cf14e425478d2871819cf4ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6309ce83aa1f136df1103a70c51a77f5') in 0.005796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_226.asset
+  artifactKey: Guid(a13e426b565115a46915624de91fa25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_226.asset using Guid(a13e426b565115a46915624de91fa25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588be89b7e1b1532aaed03ac8a6babe1') in 0.006694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_229.asset
+  artifactKey: Guid(12b01f01e5674cd4b94f80b1e07dc1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_229.asset using Guid(12b01f01e5674cd4b94f80b1e07dc1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1da3d102fa2fdcb0f7bbfdfa81ab32') in 0.005893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_224.asset
+  artifactKey: Guid(8f6baf666acec67408dfb86d78293e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_224.asset using Guid(8f6baf666acec67408dfb86d78293e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0814d27b384c87710599c934a086463') in 0.005530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.689442 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_233.asset
+  artifactKey: Guid(18361d77402532349acc49853a28b69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_233.asset using Guid(18361d77402532349acc49853a28b69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af985f16b75aa9a47434130a29ddcab') in 0.007203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_241.asset
+  artifactKey: Guid(9d25d7adef33df4488faf868f72e349b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_241.asset using Guid(9d25d7adef33df4488faf868f72e349b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c0ae059aa700a74ea929c2923ad056') in 0.006989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_238.asset
+  artifactKey: Guid(a2831b9cafc0c7e4fb6fb7c0f81fb160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_238.asset using Guid(a2831b9cafc0c7e4fb6fb7c0f81fb160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ab3287aab0344d1977542c737c83af') in 0.010049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_250.asset
+  artifactKey: Guid(99f862fe4a3c14043a53b40261e6df92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_250.asset using Guid(99f862fe4a3c14043a53b40261e6df92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac007bb7425d47867e06cd5c8cc488df') in 0.009499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_246.asset
+  artifactKey: Guid(394f86a4c937ed540ae441a7978003b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_246.asset using Guid(394f86a4c937ed540ae441a7978003b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec7e937f15fe2fa633d4c98a2cd81f1') in 0.008461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_248.asset
+  artifactKey: Guid(c92c641efec53f9488acada9225f3b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_248.asset using Guid(c92c641efec53f9488acada9225f3b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074a0ea0a8c38e2fe211f42ee10ca024') in 0.006671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_253.asset
+  artifactKey: Guid(d31bcc2b2eb730d46b4d166591413d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_253.asset using Guid(d31bcc2b2eb730d46b4d166591413d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f77a7ef42a1bf794f3706fd81afa7a1') in 0.007365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_244.asset
+  artifactKey: Guid(87ea4601a0d08fe43bcacda8a4673d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_244.asset using Guid(87ea4601a0d08fe43bcacda8a4673d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2a679494bf05834a8898686620c445') in 0.009321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_247.asset
+  artifactKey: Guid(90e21a164bacf444a82aeb5df470f6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_247.asset using Guid(90e21a164bacf444a82aeb5df470f6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f07eae0424a14fcb5d3f20da25e95b') in 0.009804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_249.asset
+  artifactKey: Guid(c248dfe9421b5e8419b7eb76e469747d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_249.asset using Guid(c248dfe9421b5e8419b7eb76e469747d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a672b2f9ed0b39d8ec9253caa84edb') in 0.005899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_262.asset
+  artifactKey: Guid(5bbd3800586621545aaeb1946e69b9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_262.asset using Guid(5bbd3800586621545aaeb1946e69b9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54d5de5c11882c610af92dfff80cd57') in 0.008602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_260.asset
+  artifactKey: Guid(dd8f82adde0c6d34c99aeb7d110d0ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_260.asset using Guid(dd8f82adde0c6d34c99aeb7d110d0ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154a7e7b7b5ac7095e75c676a7d9ef28') in 0.007532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_263.asset
+  artifactKey: Guid(bca7cbef9a5038b4a864feaf61743460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_263.asset using Guid(bca7cbef9a5038b4a864feaf61743460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b102a088341216f73a28dca93596a13f') in 0.022227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_256.asset
+  artifactKey: Guid(1f40f04aecc4b41489653a0f32877206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_256.asset using Guid(1f40f04aecc4b41489653a0f32877206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9212b4ee5bf93cf32b73b75c14c66251') in 0.023136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.861714 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_269.asset
+  artifactKey: Guid(6601e9abf4a03cb4e90d785f7b047f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_269.asset using Guid(6601e9abf4a03cb4e90d785f7b047f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11abb0282be3857dfe774f4e38813c26') in 0.005757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_275.asset
+  artifactKey: Guid(37e37452649aa54488e862250b825980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_275.asset using Guid(37e37452649aa54488e862250b825980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79bcb8588ea2ba8a335c9cbc625cd51c') in 0.005303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_274.asset
+  artifactKey: Guid(32ccad482659c334bbe7d3a39717fd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_274.asset using Guid(32ccad482659c334bbe7d3a39717fd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48fb1a61e8f493383fc4fe42b24d67c') in 0.005893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_271.asset
+  artifactKey: Guid(a1024eef9f2c1ff4d96ff1c9be113343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_271.asset using Guid(a1024eef9f2c1ff4d96ff1c9be113343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd81556dd008e1f5db3abd702c8fd150') in 0.005354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.217196 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_281.asset
+  artifactKey: Guid(bf0e8fe809847354790037ace56be8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_281.asset using Guid(bf0e8fe809847354790037ace56be8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1766505622a9baf83576a5f005d45f') in 0.005271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_290.asset
+  artifactKey: Guid(51fcdf67e522aa1439266ec52457b586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_290.asset using Guid(51fcdf67e522aa1439266ec52457b586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b09f6d435c90fb5072ed72a326b40a') in 0.005339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_291.asset
+  artifactKey: Guid(d78be8fe84f44be43a2179cf0117707b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_291.asset using Guid(d78be8fe84f44be43a2179cf0117707b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dca1fd1553e051559fe34b6b102ef79') in 0.004802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_284.asset
+  artifactKey: Guid(fc1e9f11e16586243ba08424dee341d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_284.asset using Guid(fc1e9f11e16586243ba08424dee341d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e387be2755639ceaebc5563a859939') in 0.005103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.220301 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_293.asset
+  artifactKey: Guid(64a566484a133934094c5609dbe888e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_293.asset using Guid(64a566484a133934094c5609dbe888e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51c3d7e93ab7db125d33d762c65f30d') in 0.005078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_295.asset
+  artifactKey: Guid(f249114273a0f774bb4310100ab5e1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_295.asset using Guid(f249114273a0f774bb4310100ab5e1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9919a961e6fe50308ba2dad59de05bc') in 0.005351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_297.asset
+  artifactKey: Guid(37e86dd099304f64180eae81495014e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_297.asset using Guid(37e86dd099304f64180eae81495014e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e627db8bd0548f56b5a218eea60d3a00') in 0.005136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_300.asset
+  artifactKey: Guid(acaed00142c68a745b303cd298648e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_300.asset using Guid(acaed00142c68a745b303cd298648e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f878f83ea8507a0e1c7b48e28a2cb4') in 0.004854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.377611 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_305.asset
+  artifactKey: Guid(8fac8785a68536c49ac07bc2b4515a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_305.asset using Guid(8fac8785a68536c49ac07bc2b4515a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c99a64560ddb8f559971f1fde1ab0f') in 0.005589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_312.asset
+  artifactKey: Guid(abb13c3055591b948a263cd2b9322fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_312.asset using Guid(abb13c3055591b948a263cd2b9322fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e905dbfcec897d18339979b616c37b73') in 0.005400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_309.asset
+  artifactKey: Guid(d86de291462ae5540b4cb58231dcec00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_309.asset using Guid(d86de291462ae5540b4cb58231dcec00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625985ccd15daa54507f9eff238ae503') in 0.005308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_308.asset
+  artifactKey: Guid(877e1cefa270f34498aa1c2935cfe609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_308.asset using Guid(877e1cefa270f34498aa1c2935cfe609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd613f5f17ebb787017b43a5f153b668b') in 0.006270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.651093 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_317.asset
+  artifactKey: Guid(1e7ea9df9286d4a48b063ea841018806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_317.asset using Guid(1e7ea9df9286d4a48b063ea841018806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c369acb5e5f089455dc1c5f6dc2eb7c') in 0.008070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_325.asset
+  artifactKey: Guid(8eac0f231b68fe7479175707180de2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_325.asset using Guid(8eac0f231b68fe7479175707180de2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22477cd541e4c6114f07ef97f2ff588e') in 0.007757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_322.asset
+  artifactKey: Guid(e6c47db7cd05f334da19ca614a9106ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_322.asset using Guid(e6c47db7cd05f334da19ca614a9106ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b5810a36fe4b1a9cc9338bde5bc566') in 0.008741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_328.asset
+  artifactKey: Guid(09f94e66e3d702540a159d9f87d082af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_328.asset using Guid(09f94e66e3d702540a159d9f87d082af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242df3aff8fcbbf8e60d4a72fe748aa3') in 0.011163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_333.asset
+  artifactKey: Guid(ad147f927c8a185498c9c84d581b34fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_333.asset using Guid(ad147f927c8a185498c9c84d581b34fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff34881d95bab490757c2902b445c36') in 0.006056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_331.asset
+  artifactKey: Guid(21223d191c345744480a202cb152c558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_331.asset using Guid(21223d191c345744480a202cb152c558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b22e157e90c525e06176c096e467d2') in 0.008309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_332.asset
+  artifactKey: Guid(63a126393fa58ae4dbe00f26bdc5f36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_332.asset using Guid(63a126393fa58ae4dbe00f26bdc5f36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6a29d5fdb15b9e478f44db42576149') in 0.006821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_329.asset
+  artifactKey: Guid(f512022158614b5468a09fcff63423fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_329.asset using Guid(f512022158614b5468a09fcff63423fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77effbf36ad37fd48aaae5d4cab0e94d') in 0.028707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_346.asset
+  artifactKey: Guid(9d02220a950d5684b81f1d80e8525108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_346.asset using Guid(9d02220a950d5684b81f1d80e8525108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631f32efbbd8e6671a4d1ab777f5c13d') in 0.006008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_344.asset
+  artifactKey: Guid(8682bee2806a4fd4bab1e94553c529da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_344.asset using Guid(8682bee2806a4fd4bab1e94553c529da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b8583b8964042919a3d4c65b74357d') in 0.027422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_347.asset
+  artifactKey: Guid(173d9bb1a122d47498aa24d6a0f0e8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_347.asset using Guid(173d9bb1a122d47498aa24d6a0f0e8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c72fba41f3a561dfed324e6648a6e7') in 0.055144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.244684 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_353.asset
+  artifactKey: Guid(c2346f3b61a76064782c72b34673be39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_353.asset using Guid(c2346f3b61a76064782c72b34673be39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688cf0f544a0e89dc2354b01eb45aa3b') in 0.009136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_359.asset
+  artifactKey: Guid(7dc8f2e4a5b329f45847e3c717bc36dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_359.asset using Guid(7dc8f2e4a5b329f45847e3c717bc36dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575a9d0701d12e32e686ec4fa2ee0141') in 0.009052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_363.asset
+  artifactKey: Guid(70bd0673083144644ba6154e38ba05c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_363.asset using Guid(70bd0673083144644ba6154e38ba05c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f536882b8230480f555ea73913b0c0') in 0.007363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_357.asset
+  artifactKey: Guid(2f205ab4994624840b87013d7abc11b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_357.asset using Guid(2f205ab4994624840b87013d7abc11b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7abe199cedb60fac04c8dbae97ef2de9') in 0.020006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042876 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_365.asset
+  artifactKey: Guid(01237591c39768d43b071f63e9d6135a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_365.asset using Guid(01237591c39768d43b071f63e9d6135a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfb95d40719d51d6c62c2b4605c4be7') in 0.006688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_373.asset
+  artifactKey: Guid(f8216bef0e4e45544a85fdcbd3c0ee53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_373.asset using Guid(f8216bef0e4e45544a85fdcbd3c0ee53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89caebe559c33efa14436ae3230c2c49') in 0.009710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_374.asset
+  artifactKey: Guid(f915ae0cc129f2b4bacdbb869aab0492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_374.asset using Guid(f915ae0cc129f2b4bacdbb869aab0492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe423747082777d1fda8518fea46cbc') in 0.009544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_368.asset
+  artifactKey: Guid(31452191464ceb04ab9fa7d23b4b19be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_368.asset using Guid(31452191464ceb04ab9fa7d23b4b19be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ea4c216608f72f7ec88580b395a123') in 0.006030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031985 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_377.asset
+  artifactKey: Guid(2e8544ac85bc4a84ca63ea051817d6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_377.asset using Guid(2e8544ac85bc4a84ca63ea051817d6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80452bc64f8cd46c261410a03749722') in 0.005029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_379.asset
+  artifactKey: Guid(e3cd8ce7790fc484c8137b2aa5c08b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_379.asset using Guid(e3cd8ce7790fc484c8137b2aa5c08b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0270c1718fac680bc057496fe870f7d9') in 0.004815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_387.asset
+  artifactKey: Guid(cfc9009ef994e9044954f2acc65fe695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_387.asset using Guid(cfc9009ef994e9044954f2acc65fe695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531218cba6007a074ba485c5efe4a2b6') in 0.005987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_384.asset
+  artifactKey: Guid(96accb00bc5dd9140a4ce91e3b8f0e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_384.asset using Guid(96accb00bc5dd9140a4ce91e3b8f0e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68991aee298c373732d06a9df3c0f8d') in 0.005261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.926898 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_389.asset
+  artifactKey: Guid(354c4595c701faf4b8bc5756715af1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_389.asset using Guid(354c4595c701faf4b8bc5756715af1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7cd32a1442df85d46e9292809053c5') in 0.005037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_395.asset
+  artifactKey: Guid(0a5ab2e9712f5b848985045f539d1196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_395.asset using Guid(0a5ab2e9712f5b848985045f539d1196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10dc419c6e10521f361ab559356941e') in 0.005200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_397.asset
+  artifactKey: Guid(8c2127ed0be6cdc44aa07e80bbaf620e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_397.asset using Guid(8c2127ed0be6cdc44aa07e80bbaf620e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b702198591ff2ea66902d80e9ea10cf') in 0.005688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_398.asset
+  artifactKey: Guid(f8f93c572964063428ea62bfa635781d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_398.asset using Guid(f8f93c572964063428ea62bfa635781d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f316cc7e2937e9575d92c1bb9cdfd995') in 0.005075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054613 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_401.asset
+  artifactKey: Guid(a33dd891ab1b44143a02f8c553ad6965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_401.asset using Guid(a33dd891ab1b44143a02f8c553ad6965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1631dbe08e9958994002175d45431b51') in 0.004810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_403.asset
+  artifactKey: Guid(0e23d817ac6f3e2409f63e3aa6ea9002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_403.asset using Guid(0e23d817ac6f3e2409f63e3aa6ea9002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0688f75f2bc29b062694d21305ae1dfa') in 0.005217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_404.asset
+  artifactKey: Guid(0265ddf9e8fdc4f4d8e03d7d1cf80958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_404.asset using Guid(0265ddf9e8fdc4f4d8e03d7d1cf80958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e9b533db9d62798de11c8fd708c599') in 0.005544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_410.asset
+  artifactKey: Guid(044099dca8fc4a94fabb27b13fb8e1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_410.asset using Guid(044099dca8fc4a94fabb27b13fb8e1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e090808002f5bea2b743957b755d77d2') in 0.005979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.886291 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_413.asset
+  artifactKey: Guid(ffe7263d0b05f85498a71bce30413735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_413.asset using Guid(ffe7263d0b05f85498a71bce30413735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4b527443c30bb26f749c8d25474bed') in 0.008463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_422.asset
+  artifactKey: Guid(a5fd01e67743517448a0e2885865a85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_422.asset using Guid(a5fd01e67743517448a0e2885865a85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36e7492340566eee22f37c4008a0e14') in 0.010036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_419.asset
+  artifactKey: Guid(52db91e835f150c4bb63ecea8c4f0b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_419.asset using Guid(52db91e835f150c4bb63ecea8c4f0b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a63c6a291a15efa1d8ca59a61d7b254') in 0.009214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_421.asset
+  artifactKey: Guid(07f7971d5b1eafa4ea81dab67cf43886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_421.asset using Guid(07f7971d5b1eafa4ea81dab67cf43886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbcfb06d41201dbe050b5b10bbcca95') in 0.005360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_417.asset
+  artifactKey: Guid(a5535da0c520ee341889d7b135ca3436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_417.asset using Guid(a5535da0c520ee341889d7b135ca3436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba4d242a2837bd0bb4e43916e2646d0') in 0.032878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.061505 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_425.asset
+  artifactKey: Guid(9f61a59c5060fca49ac1183f0aef9bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_425.asset using Guid(9f61a59c5060fca49ac1183f0aef9bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f67b4ab25cee735c8b6d4afe6f7d7ba') in 0.005672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_431.asset
+  artifactKey: Guid(a9a5f3d993621a4479e8bb378b9436e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_431.asset using Guid(a9a5f3d993621a4479e8bb378b9436e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eacf4b624b9087075e97227afab1e901') in 0.015714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_429.asset
+  artifactKey: Guid(da5f4b37964c13744ac18bdb73c1754b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_429.asset using Guid(da5f4b37964c13744ac18bdb73c1754b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5422a3bc9a661d2284bd477a1043296c') in 0.008102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_427.asset
+  artifactKey: Guid(42b35a98b16170248aedaa2b4d6c1d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_427.asset using Guid(42b35a98b16170248aedaa2b4d6c1d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe0c6c5c6cbfd4c5b98e9654947abcd') in 0.011584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.926556 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_437.asset
+  artifactKey: Guid(2dd466f8a6853554894af23e4e2d26d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_437.asset using Guid(2dd466f8a6853554894af23e4e2d26d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7a5f331525f4411cea1a9f35e37886') in 0.005375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_440.asset
+  artifactKey: Guid(5ab342da416de804388b7431981b610a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_440.asset using Guid(5ab342da416de804388b7431981b610a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef452b3ed8b2cd104c66db0491051de') in 0.005203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_445.asset
+  artifactKey: Guid(91f96357b7affd1428f5b8227a98da93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_445.asset using Guid(91f96357b7affd1428f5b8227a98da93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3603ef050c0e6d95c52db282efaf24e2') in 0.005480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_442.asset
+  artifactKey: Guid(f2ab65fcd23fdb542882b133fcf72d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_442.asset using Guid(f2ab65fcd23fdb542882b133fcf72d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a21c69129d808ac2a59eebb01f49cb') in 0.004970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.099253 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_449.asset
+  artifactKey: Guid(57f6b207cdc963a41977d331559072a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_449.asset using Guid(57f6b207cdc963a41977d331559072a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3ceb6bb6fd98c3d7d92e3e21fe076f') in 0.005034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_452.asset
+  artifactKey: Guid(f104f169285217d498c9d5723c84590c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_452.asset using Guid(f104f169285217d498c9d5723c84590c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e9a50ca408cc962901e55d58516a5f') in 0.005673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_458.asset
+  artifactKey: Guid(b5d27966322f00e4ba12746ad75a9982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_458.asset using Guid(b5d27966322f00e4ba12746ad75a9982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5af9475b376e46f0d440182ed96d8c') in 0.004703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_455.asset
+  artifactKey: Guid(34f49ddd9861fac428448db7c26f5288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_455.asset using Guid(34f49ddd9861fac428448db7c26f5288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8e685b79cec335716811f8cea20822') in 0.006233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.280222 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_461.asset
+  artifactKey: Guid(a4c9c6ff8b40f5c46a85165114b1b13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_461.asset using Guid(a4c9c6ff8b40f5c46a85165114b1b13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7bb444e8406c15248d15393f1a8a94') in 0.005200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_468.asset
+  artifactKey: Guid(7d2603cf7b3e66d4ebb3a97632d3a71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_468.asset using Guid(7d2603cf7b3e66d4ebb3a97632d3a71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94fca8d0533c0c2ae157bdf3ebe2ea32') in 0.005128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_464.asset
+  artifactKey: Guid(3eeddc2d6312f0d41b17b24580db4c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_464.asset using Guid(3eeddc2d6312f0d41b17b24580db4c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6c5a29e25272f395b01bc17b9a6d90') in 0.005465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_467.asset
+  artifactKey: Guid(19ea71fb0992944488da091b245e672b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_467.asset using Guid(19ea71fb0992944488da091b245e672b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd291bc0d845790476640825ac3421b') in 0.004789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.339706 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_473.asset
+  artifactKey: Guid(5af1de3155d268a4894dd2807cf2e209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_473.asset using Guid(5af1de3155d268a4894dd2807cf2e209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dea4d00f6daee80d01a8fc5db14f6e6') in 0.005417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_479.asset
+  artifactKey: Guid(8d40d5d2624af4d4fb9a805f1b9d3d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_479.asset using Guid(8d40d5d2624af4d4fb9a805f1b9d3d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8512852fd76488c7ecbe31c317a7d3') in 0.005646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_481.asset
+  artifactKey: Guid(a3e19a041bd402149a80f72eb156e2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_481.asset using Guid(a3e19a041bd402149a80f72eb156e2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd3b1b49896e6a437743de872278a76') in 0.005629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_482.asset
+  artifactKey: Guid(c02df12e7592d4048bf47bf44da14a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_482.asset using Guid(c02df12e7592d4048bf47bf44da14a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea88c6a4097946a481be131cd2e2e99') in 0.005324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024688 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_485.asset
+  artifactKey: Guid(fdc57d9b224213641b411e36e1602a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_485.asset using Guid(fdc57d9b224213641b411e36e1602a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60118e8dc2f6ac94de0919b8a7804e7') in 0.007477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_495.asset
+  artifactKey: Guid(c7ce844205b798c4a873b17cbe32b053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_495.asset using Guid(c7ce844205b798c4a873b17cbe32b053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2660640e505b6c1b58394e5a7e80805') in 0.004967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_489.asset
+  artifactKey: Guid(b907bf9b3b1e8954f8e3163188ecabaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_489.asset using Guid(b907bf9b3b1e8954f8e3163188ecabaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60bf23aee71768b7dc493ea87fe62de') in 0.005611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/PC Computer - Stardew Valley - Town Interior_494.asset
+  artifactKey: Guid(0dd33cc1d2da4c34782576edd8109b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PC Computer - Stardew Valley - Town Interior_494.asset using Guid(0dd33cc1d2da4c34782576edd8109b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01cecdad7c9621f267d45158bac20e5') in 0.005417 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
