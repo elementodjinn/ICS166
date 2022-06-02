@@ -1925,7 +1925,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 972786468}
+  selectedFlowchart: {fileID: 946855505}
 --- !u!4 &360474103
 Transform:
   m_ObjectHideFlags: 1
@@ -2065,7 +2065,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d27bb4efeb37b942b571b6a8147e6bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 1
+  type: 0
 --- !u!1 &658927453
 GameObject:
   m_ObjectHideFlags: 0
@@ -2123,7 +2123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d27bb4efeb37b942b571b6a8147e6bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 3
+  type: 0
 --- !u!212 &658927456
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2357,6 +2357,7 @@ GameObject:
   - component: {fileID: 946855514}
   - component: {fileID: 946855516}
   - component: {fileID: 946855515}
+  - component: {fileID: 946855517}
   m_Layer: 0
   m_Name: Letter 1
   m_TagString: Untagged
@@ -3173,6 +3174,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 946855503}
   commandList:
+  - {fileID: 946855517}
   - {fileID: 946855508}
   - {fileID: 946855507}
   - {fileID: 946855512}
@@ -3181,8 +3183,8 @@ MonoBehaviour:
   - {fileID: 946855510}
   - {fileID: 946855509}
   - {fileID: 946855516}
-  - {fileID: 946855514}
   - {fileID: 946855515}
+  - {fileID: 946855514}
   suppressAllAutoSelections: 0
 --- !u!114 &946855505
 MonoBehaviour:
@@ -3211,7 +3213,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 946855504}
   selectedCommands:
-  - {fileID: 946855515}
+  - {fileID: 946855517}
   variables:
   - {fileID: 946855498}
   description: 
@@ -3433,7 +3435,7 @@ MonoBehaviour:
   delay: 0
 --- !u!114 &946855515
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3460,7 +3462,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &946855516
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3479,6 +3481,23 @@ MonoBehaviour:
   orthoSizeTweenType: 4
   posTweenType: 4
   rotTweenType: 4
+--- !u!114 &946855517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946855488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 20
+  indentLevel: 0
+  targetObject: {fileID: 1952051437}
+  methodName: DisableMovement
+  delay: 0
 --- !u!1 &972786448
 GameObject:
   m_ObjectHideFlags: 0
@@ -5949,17 +5968,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1419948368 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5684029453722983858, guid: cf4430af3a1930e43a370f93e030cc55, type: 3}
-  m_PrefabInstance: {fileID: 1493756028}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29861490a211ee643b327e7969ea3316, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1461867088
 GameObject:
   m_ObjectHideFlags: 0
@@ -7155,7 +7163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  canMove: 0
+  canMove: 1
 --- !u!70 &1952051440
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -7235,7 +7243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74c0e7e707efe9746836b9d0783eaf0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventoryUI: {fileID: 1419948368}
+  inventoryUI: {fileID: 0}
 --- !u!1001 &1981497781
 PrefabInstance:
   m_ObjectHideFlags: 0
