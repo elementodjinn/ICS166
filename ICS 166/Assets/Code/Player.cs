@@ -11,11 +11,15 @@ public class Player : MonoBehaviour
     private Vector2 movementInput;
     private Animator[] animators;
     private bool isMoving;
+    private bool isMoveEnabled;
+
+    // Need to figure out how to stop animation when in dialogue (i.e. when isMoveEnabled is false)
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         animators = GetComponentsInChildren<Animator>();
+        isMoveEnabled = true;
     }
     // Update is called once per frame
 
@@ -26,8 +30,11 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Movement();
-        SwitchAnimation();
+        if (isMoveEnabled)
+        {
+            Movement();
+            SwitchAnimation();
+        }
     }
 
     private void PlayerInput()
@@ -36,12 +43,13 @@ public class Player : MonoBehaviour
         inputY = Input.GetAxisRaw("Vertical");
         movementInput = new Vector2(inputX, inputY);
         isMoving = movementInput != Vector2.zero;
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            inputX = inputX * 0.5f;
-            inputY = inputY * 0.5f;
-        }
-
+        // if (Input.GetKey(KeyCode.LeftShift))
+        // {
+        //    inputX = inputX * 0.5f;
+        //    inputY = inputY * 0.5f;
+        //}
+        inputX = inputX * 0.5f;
+        inputY = inputY * 0.5f;
     }
 
     private void Movement()
@@ -60,6 +68,16 @@ public class Player : MonoBehaviour
                 anim.SetFloat("InputY", inputY);
             }
         }
+    }
+
+    private void DisableMov()
+    {
+        isMoveEnabled = false;
+    }
+
+    private void EnableMov()
+    {
+        isMoveEnabled = true;
     }
 
 }
