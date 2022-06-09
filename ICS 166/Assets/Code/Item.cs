@@ -54,9 +54,21 @@ public class Item : MonoBehaviour
 			case ItemType.Key: return ItemAssets.Instance.key_sprite;
 		}
 	}
-	
-	
-	public string GetText()
+
+    public void ChangeColorBlack()
+    {
+        SpriteRenderer sr = GetComponent<SpriteRenderer>();
+        sr.color = Color.black;
+    }
+
+    public void ChangeColorWhite()
+    {
+        SpriteRenderer sr = GetComponent<SpriteRenderer>();
+        sr.color = Color.white;
+    }
+
+
+    public string GetText()
 	{
 		switch (type)
 		{
