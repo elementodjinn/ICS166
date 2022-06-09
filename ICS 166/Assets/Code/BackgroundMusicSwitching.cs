@@ -13,6 +13,7 @@ public class BackgroundMusicSwitching : MonoBehaviour
     void Start()
     {
         source.clip = clips[currentClip];
+        source.loop = true;
         source.Play();
     }
 
@@ -39,6 +40,7 @@ public class BackgroundMusicSwitching : MonoBehaviour
                 currentClip += 1;
             }
             source.clip = clips[currentClip];
+            source.loop = true;
             source.Play();
         }
     }
