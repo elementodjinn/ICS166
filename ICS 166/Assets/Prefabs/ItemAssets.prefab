@@ -44,7 +44,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed5b378aa80a17a4f8c3935b7a63e978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  note_sprite: {fileID: 21300000, guid: 204caa60b963d0c40a4ba28f4b889153, type: 3}
   key_sprite: {fileID: 21300000, guid: e14d71f391d8b024f94479574a151175, type: 3}
+  cash_sprite: {fileID: 21300000, guid: 29521f84ac972c54aafa1e55deb5a142, type: 3}
+  coin_sprite: {fileID: 21300000, guid: 4129708e653d82542bb03e2bb88c71d3, type: 3}
+  food_sprite: {fileID: 21300000, guid: 6858d42ff6b186b43a943e821a92f321, type: 3}
+  note_sprite: {fileID: 21300000, guid: 204caa60b963d0c40a4ba28f4b889153, type: 3}
   note1: {fileID: 21300000, guid: e0600649af310b7478c7758da3ca630a, type: 3}
   note2: {fileID: 21300000, guid: b53f0fcc843ddf94da53be0783aa2fd3, type: 3}
+  note3: {fileID: 21300000, guid: b53f0fcc843ddf94da53be0783aa2fd3, type: 3}
+  note4: {fileID: 21300000, guid: b53f0fcc843ddf94da53be0783aa2fd3, type: 3}
+  note5: {fileID: 21300000, guid: b53f0fcc843ddf94da53be0783aa2fd3, type: 3}
+  note6: {fileID: 21300000, guid: b53f0fcc843ddf94da53be0783aa2fd3, type: 3}
+  note7: {fileID: 21300000, guid: b53f0fcc843ddf94da53be0783aa2fd3, type: 3}
+  note8: {fileID: 21300000, guid: b53f0fcc843ddf94da53be0783aa2fd3, type: 3}

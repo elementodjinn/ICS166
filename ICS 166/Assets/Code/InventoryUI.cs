@@ -12,14 +12,18 @@ public class InventoryUI : MonoBehaviour
 	private GameObject ui;
 
 	// an array containing all the item slots of the inventory's ui, starts out inactive
-	private GameObject[] item_containers;
+	[SerializeField] private GameObject[] item_containers;
 
 	[SerializeField] private NoteDisplay note_display;
+
+	// access to the player script object to disable/enable movement when opening/closing inventory
+	private Player access_movement;
 
 
 	private void Awake()
 	{
-		item_containers = GameObject.FindGameObjectsWithTag("ItemContainer");
+		access_movement = FindObjectOfType<Player>();
+
 		foreach (GameObject item in item_containers)
 			item.SetActive(false);
 
@@ -32,19 +36,27 @@ public class InventoryUI : MonoBehaviour
 	public void OpenInventory(PlayerInventory inventory)
 	{
 		this.inventory = inventory;
+		
+		inventory.inventory_opened = true;
 		ui.SetActive(true);
+		
 		UpdateInventory();
+
+		access_movement.DisableMov();
 	}
 
 
 	// "Closes" the inventory by de-activating it
     public void CloseInventory()
 	{
+		inventory.inventory_opened = false;
 		ui.SetActive(false);
+
+		access_movement.EnableMov();
 	}
 
 
-	// Updates the displayed inventory's ui
+	// Updates the displayed inventory's UI
 	public void UpdateInventory()
 	{
 		Item[] items = inventory.GetItems();
@@ -87,18 +99,16 @@ public class InventoryUI : MonoBehaviour
 	// Opens a note by activating it & closes the inventory
 	public void OpenNote(Item item)
 	{
-		inventory.note_opened = true;
-
-		inventory.inventory_opened = false;
 		CloseInventory();
 
+		note_display.setInventory(inventory);
 		note_display.Open(item);
 	}
 
 
-	// Closes a note by deactivating it
-	public void CloseRecipes()
+	// Returns a list containing all note types
+	public List<Item.ItemType> AllNotes()
 	{
-		note_display.Close();
+		return note_display.notes;
 	}
 }

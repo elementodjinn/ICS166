@@ -22,7 +22,7 @@ public class ItemInteraction : MonoBehaviour
         //mb_temp
         //detectionPoint = gameObject.transform;
         //detectionLayer = LayerMask.GetMask("Item");
-
+        
         inventory = new PlayerInventory();
     }
 
@@ -30,10 +30,9 @@ public class ItemInteraction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Cannot interact with items while in inventory
-        if (!inventory.inventory_opened)
+        // Cannot interact with items while in inventory or not viewing a note
+        if (!inventory.inventory_opened && !inventory.note_opened)
         {
-            // Interact with item on ground using "e"
             if (detect_object && Input.GetKeyDown(KeyCode.E))
             {
                 Debug.Log("INTERACT");
@@ -41,17 +40,15 @@ public class ItemInteraction : MonoBehaviour
             }
         }
 
-        // Open/close inventory using "Tab"
-        if (Input.GetKeyDown(KeyCode.Tab))
+        // Open/close inventory using "Tab" if not viewing a note
+        if (Input.GetKeyDown(KeyCode.Tab) && !inventory.note_opened)
         {
             if (!inventory.inventory_opened)
             {
-                inventory.inventory_opened = true; 
                 inventoryUI.OpenInventory(inventory);
             }
             else
             {
-                inventory.inventory_opened = false;
                 inventoryUI.CloseInventory();
             }
         }

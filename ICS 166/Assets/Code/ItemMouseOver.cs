@@ -22,7 +22,7 @@ public class ItemMouseOver : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 	public void OnPointerEnter(PointerEventData eventData)
 	{
 		// temp if statement cuz currently can only click on notes
-		if (item.type == Item.ItemType.Note1 || item.type == Item.ItemType.Note2)
+		if (inventoryUI.AllNotes().Contains(item.type))
 			selected_obj.SetActive(true);
 	}
 
@@ -30,7 +30,7 @@ public class ItemMouseOver : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 	public void OnPointerExit(PointerEventData eventData)
 	{
 		// temp if statement cuz currently can only click on notes
-		if (item.type == Item.ItemType.Note1 || item.type == Item.ItemType.Note2) 
+		if (inventoryUI.AllNotes().Contains(item.type))
 			selected_obj.SetActive(false);
 	}
 
@@ -39,7 +39,7 @@ public class ItemMouseOver : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 	{
 		if (pointerEventData.button == PointerEventData.InputButton.Left)
 		{
-			if (item.type == Item.ItemType.Note1 || item.type == Item.ItemType.Note2)
+			if (inventoryUI.AllNotes().Contains(item.type))
 				inventoryUI.OpenNote(item);
 		}
 	}

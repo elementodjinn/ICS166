@@ -70,12 +70,12 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void DisableMov()
+    public void DisableMov()
     {
         isMoveEnabled = false;
     }
 
-    private void EnableMov()
+    public void EnableMov()
     {
         isMoveEnabled = true;
     }
