@@ -28,7 +28,6 @@ public class Item : MonoBehaviour
 	public ItemType type;
 
 	
-	// maybe temporary
 	public void Interact()
 	{
 		Debug.Log("PICK UP");
@@ -36,6 +35,17 @@ public class Item : MonoBehaviour
 		FindObjectOfType<ItemInteraction>().PickUpItem(item);
 		//Disable the obj
 		gameObject.SetActive(false);
+	}
+
+
+	// Removes an item from the inventory
+	public void Remove()
+	{
+		if (type != ItemType.Default)
+		{
+			Debug.Log("REMOVE");
+			FindObjectOfType<ItemInteraction>().RemoveFromInventory(type);
+		}
 	}
 
 

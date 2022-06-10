@@ -98,6 +98,13 @@ public class InventoryUI : MonoBehaviour
 	}
 
 
+	public void RemoveItem(int position)
+    {
+		if (position != -1)
+			item_containers[position].GetComponent<Item>().type = Item.ItemType.Default;
+	}
+
+
 	// Opens a note by activating it & closes the inventory
 	public void OpenNote(Item item)
 	{

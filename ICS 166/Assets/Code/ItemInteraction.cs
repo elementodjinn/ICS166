@@ -98,4 +98,14 @@ public class ItemInteraction : MonoBehaviour
         audioManager.Play(item.GetComponent<Item>().GetAudio());
         inventory.AddItem(item);
     }
+
+
+    public void RemoveFromInventory(Item.ItemType type)
+    {
+        if (inventory.FindItem(type))
+        {
+            inventoryUI.RemoveItem(inventory.RemoveItem(type));
+            inventoryUI.UpdateInventory();
+        }
+    }
 }

@@ -41,6 +41,8 @@ public class ItemMouseOver : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 		{
 			if (inventoryUI.AllNotes().Contains(item.type))
 				inventoryUI.OpenNote(item);
+			//else if (item.type == Item.ItemType.Key)
+				//item.Remove();
 		}
 	}
 }

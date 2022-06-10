@@ -7,12 +7,13 @@ public class PlayerInventory
 	public bool inventory_opened = false;
 	public bool note_opened = false;
 	private Item[] inventory_data;
+	private int inventory_capacity = 12;
 
 
 	public PlayerInventory()
 	{
-		inventory_data = new Item[10];
-		for (int i = 0; i < 10; i++)
+		inventory_data = new Item[inventory_capacity];
+		for (int i = 0; i < inventory_capacity; i++)
 		{
 			inventory_data[i] = null;
 		}
@@ -24,7 +25,7 @@ public class PlayerInventory
 	public void AddItem(GameObject obj)
 	{
 		Item item = obj.GetComponent<Item>();
-		for (int i = 0; i < 10; i++)
+		for (int i = 0; i < inventory_capacity; i++)
 		{
 			if (inventory_data[i] == null)
 			{
@@ -35,24 +36,27 @@ public class PlayerInventory
 
 		// temp debug statements
 		Debug.Log("ADD inventory");
-		for (int i = 0; i < 10; i++)
+		for (int i = 0; i < inventory_capacity; i++)
 		{
 			if (inventory_data[i] != null) Debug.Log(inventory_data[i].type);
 		}
 	}
 
 
-	// maybe temporary, might not need to remove items
-	public void RemoveItem(int position)
+	// removes item from inventory and returns what position in inventory it was in
+	// so that the UI slot at that position can update
+	public int RemoveItem(Item.ItemType item_type)
 	{
-		inventory_data[position] = null;
-
-		// temp debug statements
-		Debug.Log("REMOVE inventory");
-		for (int i = 0; i < 10; i++)
+		for (int i = 0; i < inventory_capacity; i++)
 		{
-			if (inventory_data[i] != null) Debug.Log(inventory_data[i].type);
+			if (inventory_data[i] != null && inventory_data[i].type == item_type)
+			{
+				inventory_data[i] = null;
+				return i;
+			}
 		}
+
+		return -1;
 	}
 
 
@@ -66,7 +70,7 @@ public class PlayerInventory
 	// Use to check if a player has a specific item in their inventory
 	public bool FindItem(Item.ItemType item_type)
 	{
-		for (int i = 0; i < 10; i++)
+		for (int i = 0; i < inventory_capacity; i++)
 		{
 			if (inventory_data[i] != null && inventory_data[i].type == item_type)
 			{
