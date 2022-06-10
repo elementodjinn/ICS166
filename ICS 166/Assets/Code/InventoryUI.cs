@@ -15,6 +15,7 @@ public class InventoryUI : MonoBehaviour
 	[SerializeField] private GameObject[] item_containers;
 
 	[SerializeField] private NoteDisplay note_display;
+	[SerializeField] private AudioManager audioManager;
 
 	// access to the player script object to disable/enable movement when opening/closing inventory
 	private Player access_movement;
@@ -36,7 +37,8 @@ public class InventoryUI : MonoBehaviour
 	public void OpenInventory(PlayerInventory inventory)
 	{
 		this.inventory = inventory;
-		
+
+		audioManager.Play("InventoryOpen");
 		inventory.inventory_opened = true;
 		ui.SetActive(true);
 		

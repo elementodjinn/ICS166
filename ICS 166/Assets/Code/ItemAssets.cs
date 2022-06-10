@@ -19,7 +19,8 @@ public class ItemAssets : MonoBehaviour
 	public Sprite note_sprite;
 
 	// Note Displays
-	public Sprite note1;
+	public Sprite note1p1;
+	public Sprite note1p2;
 	// not implemented yet TEMPORARY
 	public Sprite note2;
 	public Sprite note3;

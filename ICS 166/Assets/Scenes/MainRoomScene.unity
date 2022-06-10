@@ -47015,6 +47015,17 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &439642354 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3740143853851469380, guid: e9e8b55ff2ee4cc44a41f736980b9da4, type: 3}
+  m_PrefabInstance: {fileID: 1674912285782103938}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4e5b4d1ed8c0a42b057ef3cbc3a7f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &449558465
 GameObject:
   m_ObjectHideFlags: 0
@@ -48233,6 +48244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryUI: {fileID: 1740652179}
+  audioManager: {fileID: 439642354}
 --- !u!114 &480948212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98747,6 +98759,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 5684029453722983858, guid: cf4430af3a1930e43a370f93e030cc55, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 439642354}
+    - target: {fileID: 5684029453788700450, guid: cf4430af3a1930e43a370f93e030cc55, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 439642354}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf4430af3a1930e43a370f93e030cc55, type: 3}
 --- !u!114 &1740652179 stripped

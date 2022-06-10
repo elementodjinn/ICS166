@@ -39,12 +39,30 @@ public class Item : MonoBehaviour
 	}
 
 
+	public int GetNumPages()
+	{
+		switch (type)
+		{
+			default:
+			case ItemType.Note2:
+			case ItemType.Note3:
+			case ItemType.Note4:
+			case ItemType.Note5:
+			case ItemType.Note6:
+			case ItemType.Note7:
+			case ItemType.Note8: return 1;
+
+			case ItemType.Note1: return 2;
+		}
+	}
+
+
 	public Sprite GetNote()
 	{
 		switch (type)
 		{
 			default:
-			case ItemType.Note1: return ItemAssets.Instance.note1;
+			case ItemType.Note1: return ItemAssets.Instance.note1p1;
 			case ItemType.Note2: return ItemAssets.Instance.note2;
 			case ItemType.Note3: return ItemAssets.Instance.note3;
 			case ItemType.Note4: return ItemAssets.Instance.note4;
@@ -52,6 +70,16 @@ public class Item : MonoBehaviour
 			case ItemType.Note6: return ItemAssets.Instance.note6;
 			case ItemType.Note7: return ItemAssets.Instance.note7;
 			case ItemType.Note8: return ItemAssets.Instance.note8;
+		}
+	}
+
+
+	public Sprite GetNoteP2()
+	{
+		switch (type)
+		{
+			default:
+			case ItemType.Note1: return ItemAssets.Instance.note1p2;
 		}
 	}
 
@@ -101,7 +129,7 @@ public class Item : MonoBehaviour
 			case ItemType.Key: return "key";
 			case ItemType.Cash: return "cash";
 			case ItemType.Coin: return "coin";
-			case ItemType.Food: return "food"; // TEMPORARY
+			case ItemType.Food: return "hamburger";
 
 			// Notes
 			case ItemType.Note1: return "note #1";
@@ -112,6 +140,30 @@ public class Item : MonoBehaviour
 			case ItemType.Note6: return "note #6";
 			case ItemType.Note7: return "note #7";
 			case ItemType.Note8: return "note #8";
+		}
+	}
+
+
+	public string GetAudio()
+	{
+		switch (type)
+		{
+			default:
+			// Items
+			case ItemType.Key: return "Keys";
+			case ItemType.Cash:
+			case ItemType.Coin: return "Coins";
+			case ItemType.Food: return "Food";
+
+			// Notes
+			case ItemType.Note1:
+			case ItemType.Note2:
+			case ItemType.Note3:
+			case ItemType.Note4:
+			case ItemType.Note5:
+			case ItemType.Note6:
+			case ItemType.Note7:
+			case ItemType.Note8: return "NotePage";
 		}
 	}
 }

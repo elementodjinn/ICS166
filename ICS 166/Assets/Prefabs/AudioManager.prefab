@@ -44,3 +44,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a4e5b4d1ed8c0a42b057ef3cbc3a7f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sounds:
+  - name: InventoryOpen
+    clip: {fileID: 8300000, guid: 85c6d0fe90ac1834d827b899370ba812, type: 3}
+    volume: 0.85
+    pitch: 1
+    time: 0.08
+    source: {fileID: 0}
+  - name: NotePage
+    clip: {fileID: 8300000, guid: 95830e43de58d4b498b31715a23999e2, type: 3}
+    volume: 0.7
+    pitch: 1
+    time: 0
+    source: {fileID: 0}
+  - name: Keys
+    clip: {fileID: 8300000, guid: 86e06d5f53bd8074f8dfb5062be4e6ca, type: 3}
+    volume: 0.7
+    pitch: 1
+    time: 0
+    source: {fileID: 0}
+  - name: Coins
+    clip: {fileID: 8300000, guid: 3b0940862a3f2cb4cb5e100a0b041704, type: 3}
+    volume: 0.75
+    pitch: 1
+    time: 0
+    source: {fileID: 0}
+  - name: Food
+    clip: {fileID: 8300000, guid: da60db17381bc314b90cb8b01747c7c9, type: 3}
+    volume: 0.7
+    pitch: 1
+    time: 0
+    source: {fileID: 0}

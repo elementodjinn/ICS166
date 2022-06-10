@@ -16,6 +16,8 @@ public class ItemInteraction : MonoBehaviour
     [SerializeField] private InventoryUI inventoryUI;
     private PlayerInventory inventory;
 
+    [SerializeField] private AudioManager audioManager;
+
 
     void Start()
     {
@@ -33,7 +35,7 @@ public class ItemInteraction : MonoBehaviour
         // Cannot interact with items while in inventory or not viewing a note
         if (!inventory.inventory_opened && !inventory.note_opened)
         {
-            if (detect_object && Input.GetKeyDown(KeyCode.E))
+            if (detect_object && Input.GetKeyDown(KeyCode.E) && detected_object.activeSelf)
             {
                 Debug.Log("INTERACT");
                 detected_object.GetComponent<Item>().Interact();
@@ -50,6 +52,7 @@ public class ItemInteraction : MonoBehaviour
             else
             {
                 inventoryUI.CloseInventory();
+                audioManager.Play("InventoryOpen");
             }
         }
     }
@@ -77,6 +80,7 @@ public class ItemInteraction : MonoBehaviour
     {
         if (collision.GetComponent<Collider2D>().tag == "Item")
         {
+            Debug.Log(collision.gameObject.activeSelf);
             Debug.Log("Item!");
             detected_object = collision.gameObject;
             detect_object = true;
@@ -91,6 +95,7 @@ public class ItemInteraction : MonoBehaviour
 
     public void PickUpItem(GameObject item)
     {
+        audioManager.Play(item.GetComponent<Item>().GetAudio());
         inventory.AddItem(item);
     }
 }
