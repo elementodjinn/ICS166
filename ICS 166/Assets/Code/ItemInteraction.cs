@@ -2,14 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// maybe temporary, might need to be rewritten to a different script, temp blocks marked with //mb_temp
+
 public class ItemInteraction : MonoBehaviour
 {
-    //mb_temp
-    //private Transform detectionPoint;
-    //private const float detectionRadius = 1f;
-    //private LayerMask detectionLayer;
-    
     private GameObject detected_object;
     private bool detect_object = false;
 
@@ -21,10 +16,6 @@ public class ItemInteraction : MonoBehaviour
 
     void Start()
     {
-        //mb_temp
-        //detectionPoint = gameObject.transform;
-        //detectionLayer = LayerMask.GetMask("Item");
-        
         inventory = new PlayerInventory();
     }
 
@@ -56,24 +47,6 @@ public class ItemInteraction : MonoBehaviour
             }
         }
     }
-
-
-    //mb_temp
-    /*bool DetectObject()
-    {
-        Collider2D obj = Physics2D.OverlapCircle(detectionPoint.position, detectionRadius, detectionLayer);
-
-        if (obj == null)
-        {
-            detectedObject = null;
-            return false;
-        }
-        else
-        {
-            detectedObject = obj.gameObject;
-            return true;
-        }
-    }*/
 
 
     private void OnTriggerStay2D(Collider2D collision)

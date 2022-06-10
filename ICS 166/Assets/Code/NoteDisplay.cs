@@ -25,7 +25,6 @@ public class NoteDisplay : MonoBehaviour
 	private GameObject right_arrow;
 	private Item item;
 	private int page_num = 0;
-	//public int num_pages = 0;
 
 
 	private void Awake()
@@ -60,7 +59,6 @@ public class NoteDisplay : MonoBehaviour
 		Image close_button = GameObject.Find("CloseButton").gameObject.GetComponent<Image>();
 		close_button.color = new Color(close_button.color.r, close_button.color.g, close_button.color.b, 0.5f);
 
-		//num_pages = item.GetNumPages();
 		if (item.GetNumPages() > 1)
         {
 			page_num = 1;
@@ -110,6 +108,8 @@ public class NoteDisplay : MonoBehaviour
 		note_ui.SetActive(false);
 
 		access_movement.EnableMov();
+
+		audioManager.Play("NotePage");
 	}
 
 

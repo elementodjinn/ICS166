@@ -33,13 +33,6 @@ public class PlayerInventory
 				break;
 			}
 		}
-
-		// temp debug statements
-		Debug.Log("ADD inventory");
-		for (int i = 0; i < inventory_capacity; i++)
-		{
-			if (inventory_data[i] != null) Debug.Log(inventory_data[i].type);
-		}
 	}
 
 

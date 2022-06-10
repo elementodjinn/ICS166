@@ -49,12 +49,12 @@ MonoBehaviour:
   coin_sprite: {fileID: 21300000, guid: 4129708e653d82542bb03e2bb88c71d3, type: 3}
   food_sprite: {fileID: 21300000, guid: 6858d42ff6b186b43a943e821a92f321, type: 3}
   note_sprite: {fileID: 21300000, guid: 204caa60b963d0c40a4ba28f4b889153, type: 3}
-  note1p1: {fileID: 21300000, guid: 0355e250c6897424682e15d4fb901ee8, type: 3}
-  note1p2: {fileID: 21300000, guid: bf17d215a5a4ba24fa667d0c2d49da95, type: 3}
-  note2: {fileID: 21300000, guid: b53f0fcc843ddf94da53be0783aa2fd3, type: 3}
-  note3: {fileID: 21300000, guid: b53f0fcc843ddf94da53be0783aa2fd3, type: 3}
-  note4: {fileID: 21300000, guid: b53f0fcc843ddf94da53be0783aa2fd3, type: 3}
-  note5: {fileID: 21300000, guid: b53f0fcc843ddf94da53be0783aa2fd3, type: 3}
-  note6: {fileID: 21300000, guid: b53f0fcc843ddf94da53be0783aa2fd3, type: 3}
-  note7: {fileID: 21300000, guid: b53f0fcc843ddf94da53be0783aa2fd3, type: 3}
-  note8: {fileID: 21300000, guid: b53f0fcc843ddf94da53be0783aa2fd3, type: 3}
+  note1p1: {fileID: 21300000, guid: cacaf50a1f37037448de06adb3d77e1a, type: 3}
+  note1p2: {fileID: 21300000, guid: cefbfd451552ca240ac54175a8bcac46, type: 3}
+  note2: {fileID: 21300000, guid: 4e7316d73a9ec6941a8654902fa5dc0e, type: 3}
+  note3: {fileID: 21300000, guid: 65f6bf9c8f7bfe84db112e96e160d0b8, type: 3}
+  note4: {fileID: 21300000, guid: d66be687f840021429a3db24be148785, type: 3}
+  note5: {fileID: 21300000, guid: 461c5c5ff38c78f46808b137d200a969, type: 3}
+  note6: {fileID: 21300000, guid: 73b9bc8ce34961d449c4c1dd030d46a4, type: 3}
+  note7: {fileID: 21300000, guid: ce527364edc5ed14d874fea84cbc6de7, type: 3}
+  note8: {fileID: 21300000, guid: c93f21deaa4034044b22256a0e674531, type: 3}
