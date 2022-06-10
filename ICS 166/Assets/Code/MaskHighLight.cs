@@ -17,7 +17,7 @@ public class MaskHighLight : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    /*void Update()
     {
         item_pos = transform.position;
         player_pos = GameObject.Find("Body").transform.position;
@@ -30,6 +30,16 @@ public class MaskHighLight : MonoBehaviour
         {
             GetComponent<Renderer>().material.color = originalColor;
         }
+    }*/
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        GetComponent<Renderer>().material.color = new Color(1f, 1f, 1f, 4f);
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        GetComponent<Renderer>().material.color = originalColor;
     }
 
 }

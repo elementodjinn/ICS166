@@ -73,11 +73,19 @@ public class Player : MonoBehaviour
     public void DisableMov()
     {
         isMoveEnabled = false;
+        for (int i = 0; i < animators.Length; i++)
+        {
+            animators[i].enabled = false;
+        }
     }
 
     public void EnableMov()
     {
         isMoveEnabled = true;
+        for (int i = 0; i < animators.Length; i++)
+        {
+            animators[i].enabled = true;
+        }
     }
 
 }
