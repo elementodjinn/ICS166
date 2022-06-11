@@ -89,4 +89,10 @@ public class ItemInteraction : MonoBehaviour
             inventoryUI.UpdateInventory();
         }
     }
+
+
+    public bool InventoryState()
+    {
+        return inventory.inventory_opened;
+    }
 }

@@ -14,6 +14,9 @@ public class Player : MonoBehaviour
     private bool isMoveEnabled;
     private bool isDialogueActive; //NEW
 
+    private AudioSource audio_source; //NEW
+    [SerializeField] private InventoryUI inventoryUI; //NEW
+
     // Need to figure out how to stop animation when in dialogue (i.e. when isMoveEnabled is false)
 
     private void Awake()
@@ -22,12 +25,21 @@ public class Player : MonoBehaviour
         animators = GetComponentsInChildren<Animator>();
         isMoveEnabled = true;
         isDialogueActive = false; //NEW
+        audio_source = GetComponent<AudioSource>(); //NEW
     }
     // Update is called once per frame
 
     private void Update()
     {
         PlayerInput();
+
+        if (isMoving && isMoveEnabled) //NEW
+        {
+            if (!audio_source.isPlaying)
+                audio_source.Play();
+        }
+        else
+            audio_source.Stop();
     }
 
     private void FixedUpdate()
@@ -102,6 +114,8 @@ public class Player : MonoBehaviour
     public void ActivatingDialogue() //NEW, called before/after DisableMov()
     {
         isDialogueActive = true;
+        if (gameObject.GetComponent<ItemInteraction>().InventoryState())
+            inventoryUI.CloseInventory();
     }
 
     // checks whether dialogue is currently running
