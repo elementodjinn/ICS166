@@ -44,7 +44,8 @@ public class Item : MonoBehaviour
 		if (type != ItemType.Default)
 		{
 			Debug.Log("REMOVE");
-			FindObjectOfType<ItemInteraction>().RemoveFromInventory(type);
+			//FindObjectOfType<ItemInteraction>().RemoveFromInventory(type);
+			FindObjectOfType<ItemInteraction>().RemoveFromInventory(this); //NEW
 		}
 	}
 

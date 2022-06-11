@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     private Animator[] animators;
     private bool isMoving;
     private bool isMoveEnabled;
+    private bool isDialogueActive; //NEW
 
     // Need to figure out how to stop animation when in dialogue (i.e. when isMoveEnabled is false)
 
@@ -20,6 +21,7 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animators = GetComponentsInChildren<Animator>();
         isMoveEnabled = true;
+        isDialogueActive = false; //NEW
     }
     // Update is called once per frame
 
@@ -88,4 +90,23 @@ public class Player : MonoBehaviour
         }
     }
 
+    // Call this function whenever dialogue ends to indicate
+    // that dialogue is no longer being displayed
+    public void DeactivatingDialogue() //NEW, called before/after EnableMov()
+    {
+        isDialogueActive = false;
+    }
+
+    // Call this function whenever dialogue starts to indicate
+    // that dialogue is currently being displayed
+    public void ActivatingDialogue() //NEW, called before/after DisableMov()
+    {
+        isDialogueActive = true;
+    }
+
+    // checks whether dialogue is currently running
+    public bool IsDialogueRunning() //NEW
+    {
+        return isDialogueActive;
+    }
 }

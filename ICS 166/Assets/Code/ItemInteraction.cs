@@ -13,10 +13,14 @@ public class ItemInteraction : MonoBehaviour
 
     [SerializeField] private AudioManager audioManager;
 
+    // access to the player script object to check if dialogue is currently active when opening/closing inventory
+    private Player access_dialogue_status; //NEW
+
 
     void Start()
     {
         inventory = new PlayerInventory();
+        access_dialogue_status = FindObjectOfType<Player>(); //NEW
     }
 
 
@@ -24,7 +28,7 @@ public class ItemInteraction : MonoBehaviour
     void Update()
     {
         // Cannot interact with items while in inventory or not viewing a note
-        if (!inventory.inventory_opened && !inventory.note_opened)
+        if (!inventory.inventory_opened && !inventory.note_opened && !access_dialogue_status.IsDialogueRunning()) //NEW
         {
             if (detect_object && Input.GetKeyDown(KeyCode.E) && detected_object.activeSelf)
             {
@@ -33,8 +37,8 @@ public class ItemInteraction : MonoBehaviour
             }
         }
 
-        // Open/close inventory using "Tab" if not viewing a note
-        if (Input.GetKeyDown(KeyCode.Tab) && !inventory.note_opened)
+        // Open/close inventory using "Tab" if not viewing a note & dialogue is not currently active
+        if (Input.GetKeyDown(KeyCode.Tab) && !inventory.note_opened && !access_dialogue_status.IsDialogueRunning()) //NEW
         {
             if (!inventory.inventory_opened)
             {
@@ -73,10 +77,14 @@ public class ItemInteraction : MonoBehaviour
     }
 
 
-    public void RemoveFromInventory(Item.ItemType type)
+    //public void RemoveFromInventory(Item.ItemType type)
+    public void RemoveFromInventory(Item item) //NEW
     {
+        Item.ItemType type = item.type; //NEW
+
         if (inventory.FindItem(type))
         {
+            audioManager.Play(item.GetAudio()); //NEW
             inventoryUI.RemoveItem(inventory.RemoveItem(type));
             inventoryUI.UpdateInventory();
         }
